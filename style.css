@@ -1,2 +1,17 @@
 title {color:red
 }
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #00ffff;
+    color: #000;
+    min-height: 50px;
+  }
+
+h1, h2 {
+    text-align: center;
+    padding: 5px;
+    background-color: #00ffff;
+    color: #000;
+  }
