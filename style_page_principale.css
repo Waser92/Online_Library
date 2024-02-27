@@ -1,0 +1,31 @@
+title {color:red
+}
+head  {
+    background-color: black;
+  }
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+nav {
+    text-align: left;
+    padding: 3px ;
+    background-color: black;
+  }
+aside {
+    text-align: right;
+    padding: 1px;
+  }
+header {
+    text-align: center;
+    padding: 5px;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+
+  html{background-color: #000000;
+    Color: red}
