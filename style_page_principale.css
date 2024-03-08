@@ -1,4 +1,4 @@
-title {color:red
+title {color:rgb(179, 182, 0)
 }
 head  {
     background-color: black;
@@ -6,26 +6,26 @@ head  {
 footer {
     text-align: center;
     padding: 5px;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: black;
+    color: rgb(0, 182, 0);
   }
 
 nav {
     text-align: left;
     padding: 3px ;
-    background-color: black;
+    background-color: #313131;
   }
 aside {
-    text-align: right;
+    text-align: left;
     padding: 1px;
   }
 header {
     text-align: center;
     padding: 5px;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #313131;
+    color: rgb(0, 182, 0);
   }
 
 
-  html{background-color: #000000;
-    Color: red}
+html{background-color: #313131;
+    Color: rgb(0, 182, 0)}
