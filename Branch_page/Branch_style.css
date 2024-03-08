@@ -1,0 +1,24 @@
+title {
+  color:red
+}
+head  {
+    background-color: black;
+  }
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+header {
+    text-align: center;
+    padding: 5px;
+    background-color: null;
+    color: #ffffff;
+  }
+
+
+  html{background-color: #00e0ff;
+    Color: White
+  }
