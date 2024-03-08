@@ -1,17 +1,52 @@
 <!DOCTYPE html>
-<html lang="fr">
+<lang="fr">
 <head>
     <meta charset="UTF-8">
+    <title>Biblioworld</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_page_principale.css">
 
 <aside>
 
 </aside>
-<head>
-    <header>
-        <title>BiblioWorld</title>
-        <H1>BiblioWorld</H1>
+<title>Page with top column</title>
+<style>
+.top-column {
+  background-color: #313131;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+</style>
+<div class="top-column">
+    <title>Colonnes du haut</title>
+  <style>
+    .colonne1 {
+      width: 24.5%;
+      height: 10vh;
+      background-color: #313131;
+      float: left;
+    }
+    .colonne2 {
+      width: 15%;
+      height: 10vh;
+      background-color: #313131;
+      float: left;
+    }
+    .colonne3 {
+      width: 40%;
+      height: 10vh;
+      background-color: #313131;
+      float: left;
+    }
+    .colonne4 {
+      width: 20%;
+      height: 10vh;
+      background-color: #313131;
+      float: left;
+    }
+  </style>
+    <div class="colonne1">
         <nav>
             <title>Recherche</title>
             <form>
@@ -19,25 +54,54 @@
                 <input type="submit" value="Lancer !" />
             </form>
         </nav>
+    </div>
+    <div class="colonne2">
+        <img src="C:\Users\topouchian\Documents\GitHub\WebSite\Info\minia.jpg"/>
+    </div>
+    <div class="colonne3">
+        <H1>BiblioWorld</H1>
+    </div>
+    <div class="colonne4">
+        <aside>
+            <h2>En relation</h2>
+            <ul>
+              <a href="#">Nous contacter</a>
+            </ul>
+        </aside>
+    </div>
+  </div>
+
+  <title>Colonne à gauche</title>
+  <style>
+    .colonne {
+      width: 25%;
+      height: 100vh;
+      background-color: black;
+      float: left;
+    }
+    .contenu {
+      width: 75%;
+      height: 100vh;
+      background-color: #313131;
+      float: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="colonne">
+    <body>
+        <h3>Thomas Hugo Baptiste</h3>
+        <footer>
+            <H3>Nous contacter</H3>
+            <h1>Bonjour</h1>
+        </footer>
+    </body>
+  </div><div class="contenu">
+    <header>
+        <title>BiblioWorld</title>
         <H2>La première plateforme de livres libre de droits</H2>
         <h3>Vous pouvez traduire vos livres librement !!!</h3>
     </header>
-    
-</head>
-<aside>
-    <h2>En relation</h2>
-    <ul>
-      <a href="#">qui est la</a>
-    </ul>
-</aside>
-
-</html>
-<body>
-    <h3>Thomas Hugo Baptiste</h3>
-    <footer>
-        <H3>Nous contacter</H3>
-        <h1>Bonjour</h1>
-    </footer>
+  </div>
 </body>
-
 </html>
