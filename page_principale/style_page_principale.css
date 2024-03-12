@@ -1,0 +1,60 @@
+title {color:rgb(179, 182, 0)
+}
+head  {
+    background-color: black;
+  }
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    color: rgb(0, 182, 0);
+  }
+
+nav {
+    text-align: left;
+    padding: 3px ;
+    background-color: #313131;
+  }
+aside {
+    text-align: left;
+    padding: 1px;
+  }
+header {
+    text-align: center;
+    padding: 5px;
+    background-color: #313131;
+    color: rgb(0, 182, 0);
+  }
+
+
+html{background-color: #313131;
+    Color: rgb(0, 182, 0)}
+
+ol {
+    text-align: left;
+  }
+
+#searchbar{
+  margin-left: 15%;
+  padding:15px;
+  border-radius: 10px;
+}
+
+input[type=text] {
+   width: 30%;
+   -webkit-transition: width 0.15s ease-in-out;
+   transition: width 0.15s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 70%;
+}
+
+.book{
+  display: list-item;    
+ }
+
+ #list{
+  font-size:  1.5em;
+  margin-left: 90px;
+ }
