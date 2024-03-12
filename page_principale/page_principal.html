@@ -5,10 +5,8 @@
     <title>Biblioworld</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style_page_principale.css">
+    <script src="./page_principale_js.js"></script>
 
-<aside>
-
-</aside>
 <title>Page with top column</title>
 <style>
 .top-column {
@@ -50,8 +48,8 @@
         <nav>
             <title>Recherche</title>
             <form>
-                <input type="search" name="q" placeholder="Rechercher" />
-                <input type="submit" value="Lancer !" />
+              <input id="searchbar" onkeyup="search_book()" type="text"
+              name="search" placeholder="Search book..">
             </form>
         </nav>
     </div>
@@ -101,6 +99,13 @@
         <title>BiblioWorld</title>
         <H2>La première plateforme de livres libre de droits</H2>
         <h3>Vous pouvez traduire vos livres librement !!!</h3>
+        <ol id='list'>
+          <li class="book">Les Misérables</li>
+          <li class="book">Notre Dame De Paris</li>
+          <li class="book">Le comte de Monte Cristo</li>
+          <li class="book">Les trois Mousquetaire</li>
+          <li class="book">L'homme qui rit</li>
+        </ol>
     </header>
   </div>
 </body>
