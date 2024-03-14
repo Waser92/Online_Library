@@ -76,14 +76,20 @@
       height: 100vh;
       background-color: black;
       float: left;
+      border-top-right-radius: 10px;
     }
     .contenu {
       width: 75%;
-      height: 100vh;
+      background-color: #313131;
+      float: left;
+    }
+    .colonne_droite {
+      width:50%;
       background-color: #313131;
       float: left;
     }
   </style>
+
 </head>
 <body>
   <div class="colonne">
@@ -100,20 +106,29 @@
         <H2>La première plateforme de livres libre de droits</H2>
         <h3>Vous pouvez traduire vos livres librement !!!</h3>
         <ol id='list'>
-          <div class="colonne">
-            <H3 class="book">Les Misérables</H3>
+          <div class="colonne_droite">
+            <a href="#">
+              <h3 class="book">Les Misérables</h3>
+              <img src="C:\Users\topouchian\Documents\GitHub\WebSite\Info\misérables.jpg"/>
+            </a>
+            <a href="#">
+              <h3 class="book">Notre Dame De Paris</h3>
+              <img src="C:\Users\topouchian\Documents\GitHub\WebSite\Info\NDP.jpg"/>
+            </a>
+            <a href="#">
+              <h3 class="book">Le comte de Monte Cristo</h3>
+              <img src="C:\Users\topouchian\Documents\GitHub\WebSite\Info\Monte_cristo.jpg"/>
+            </a>
           </div>
-          <div class="colonne">
-            <h3 class="book">Notre Dame De Paris</h3>
-          </div>
-          <div class="colonne">
-            <h3 class="book">Le comte de Monte Cristo</h3>
-          </div>
-          <div class="colonne">
-            <h3 class="book">Les trois Mousquetaire</h3>
-          </div>
-          <div class="colonne">
-            <h3 class="book">L'homme qui rit</h3>
+          <div class="colonne_droite">
+            <a href="#">
+              <h3 class="book">Les trois Mousquetaire</h3>
+              <img src="C:\Users\topouchian\Documents\GitHub\WebSite\Info\Mousquetaires.jpg"/>
+            </a>
+            <a href="#">
+              <h3 class="book">L'homme qui rit</h3>
+              <img src="C:\Users\topouchian\Documents\GitHub\WebSite\Info\homme_qui_rit.jpg"/>
+            </a>
           </div>
         </ol>
     </header>

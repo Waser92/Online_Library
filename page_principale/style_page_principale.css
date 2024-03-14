@@ -55,6 +55,7 @@ input[type=text]:focus {
  }
 
  #list{
+  color:greenyellow;
   font-size:  1.5em;
   margin-left: 90px;
  }
