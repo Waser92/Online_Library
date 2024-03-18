@@ -1,7 +1,12 @@
 {
-    "Les_Misérables": {
-        "nom_oeuvre": "Les_Misérables",
-        "Description": "Les Misérables est un roman épique écrit par Victor Hugo, publié 1862. L'histoire se déroule en France au XIXe siècle et suit la vie de plusieurs personnages, Jean Valjean, un ancien bagnard qui cherche la rédemption après avoir été libéré pour avoir volé du pain pour nourrir sa famille. Valjean échappe à la surveillance de l'inspecteur Javert et devient un homme respecté et aimé, mais son passé le hante. L'histoire explore des thèmes tels que la justice, l'amour, la rédemption et la lutte des classes. Les autres personnages importants incluent Fantine, une mère célibataire victime de la société, Cosette, la fille de Fantine, et Marius, un jeune révolutionnaire amoureux de Cosette. Les Misérables est considéré comme l'un des plus grands romans de la littérature mondiale, loué pour son analyse profonde des aspects moraux et sociaux de la société.",
+    "Les_Mis\u00c3\u00a9rables": {
+        "nom_oeuvre": "Les_Mis\u00c3\u00a9rables",
+        "Description": "Les Mis\u00c3\u00a9rables est un roman \u00c3\u00a9pique \u00c3\u00a9crit par Victor Hugo, publi\u00c3\u00a9 1862. L'histoire se d\u00c3\u00a9roule en France au XIXe si\u00c3\u00a8cle et suit la vie de plusieurs personnages, Jean Valjean, un ancien bagnard qui cherche la r\u00c3\u00a9demption apr\u00c3\u00a8s avoir \u00c3\u00a9t\u00c3\u00a9 lib\u00c3\u00a9r\u00c3\u00a9 pour avoir vol\u00c3\u00a9 du pain pour nourrir sa famille. Valjean \u00c3\u00a9chappe \u00c3\u00a0 la surveillance de l'inspecteur Javert et devient un homme respect\u00c3\u00a9 et aim\u00c3\u00a9, mais son pass\u00c3\u00a9 le hante. L'histoire explore des th\u00c3\u00a8mes tels que la justice, l'amour, la r\u00c3\u00a9demption et la lutte des classes. Les autres personnages importants incluent Fantine, une m\u00c3\u00a8re c\u00c3\u00a9libataire victime de la soci\u00c3\u00a9t\u00c3\u00a9, Cosette, la fille de Fantine, et Marius, un jeune r\u00c3\u00a9volutionnaire amoureux de Cosette. Les Mis\u00c3\u00a9rables est consid\u00c3\u00a9r\u00c3\u00a9 comme l'un des plus grands romans de la litt\u00c3\u00a9rature mondiale, lou\u00c3\u00a9 pour son analyse profonde des aspects moraux et sociaux de la soci\u00c3\u00a9t\u00c3\u00a9.",
         "URL": "C/"
+    },
+    "L'Homme qui rit": {
+        "nom_oeuvre": "L'Homme qui rit",
+        "description": "Description de l'homme qui rit",
+        "chemin": "C:/Data.ect"
     }
 }

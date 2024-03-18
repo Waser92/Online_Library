@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détails du Livre</title>
+</head>
+<body>
+    <h1 id="titreLivre"></h1>
+    <p><strong>Description:</strong> <span id="description"></span></p>
+    <p><strong>URL:</strong> <span id="URL"></span></p>
+
+    <script>
+        // Récupérer les paramètres de l'URL
+        const params = new URLSearchParams(window.location.search);
+        const nomOeuvre = params.get('nom');
+        const description = params.get('description');
+        const URL = params.get('URL');
+
+        // Afficher les détails du livre
+        document.getElementById('titreLivre').textContent = nomOeuvre;
+        document.getElementById('description').textContent = description;
+        document.getElementById('URL').textContent = URL;
+    </script>
+</body>
+</html>

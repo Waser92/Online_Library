@@ -1,0 +1,12 @@
+{
+    "Les_Mis\u00c3\u00a9rables": {
+        "nom_oeuvre": "Les Misérables",
+        "description": "Description des Misérables.",
+        "URL": "C/"
+    },
+    "L'Homme qui rit": {
+        "nom_oeuvre": "L'Homme qui rit",
+        "description": "Description de l'Homme qui rit",
+        "URL": "C:/Data.ect"
+    }
+}
