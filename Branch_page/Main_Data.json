@@ -1,0 +1,27 @@
+{
+    "Les mis\u00e9rables": {
+        "nom_oeuvre": "Les mis\u00e9rables",
+        "description": "\n\"Les Mis\u00e9rables\" de Victor Hugo est un roman \u00e9pique qui suit la vie de Jean Valjean, un ancien bagnard, et son parcours vers la r\u00e9demption dans la France du 19\u00e8me si\u00e8cle. L'histoire explore les th\u00e8mes de l'injustice sociale, de l'amour et du sacrifice \u00e0 travers les destins entrelac\u00e9s de Valjean, Fantine, Cosette et d'autres personnages embl\u00e9matiques. Hugo peint un tableau vibrant de la soci\u00e9t\u00e9 de l'\u00e9poque, mettant en lumi\u00e8re les luttes des classes d\u00e9favoris\u00e9es et les contradictions morales de la soci\u00e9t\u00e9",
+        "chemin": "Data\\Partie1.pdf"
+    },
+    "L'homme qui rit": {
+        "nom_oeuvre": "L'homme qui rit",
+        "description": "\n\"L'Homme qui rit\" de Victor Hugo raconte l'histoire de Gwynplaine, un homme d\u00e9figur\u00e9 par un sourire permanent taill\u00e9 dans son visage. Adopt\u00e9 par des saltimbanques, il se retrouve pris dans les rouages de la politique et de l'amour. Ce roman explore les th\u00e8mes de l'identit\u00e9, de la justice sociale et de la qu\u00eate de bonheur dans une soci\u00e9t\u00e9 marqu\u00e9e par l'in\u00e9galit\u00e9.",
+        "chemin": "Data\\L'Homme qui rit.pdf"
+    },
+    "Les trois mousquetaires": {
+        "nom_oeuvre": "Les trois mousquetaires",
+        "description": "\n\"Les Trois Mousquetaires\" de Alexandre Dumas suit les aventures de d'Artagnan, un jeune homme ambitieux, qui rejoint les mousquetaires du roi Louis XIII \u00e0 Paris. Avec ses compagnons Athos, Porthos et Aramis, d'Artagnan se lance dans des duels, des complots politiques et des intrigues amoureuses dans le tumulte de la France du 17\u00e8me si\u00e8cle.",
+        "chemin": "Data\\Les trois mousquetaires.pdf"
+    },
+    "Le Comte de Monte Cristo": {
+        "nom_oeuvre": "Le Comte de Monte Cristo",
+        "description": "\n\"Le Comte de Monte-Cristo\" de Alexandre Dumas narre l'histoire d'Edmond Dant\u00e8s, un jeune marin injustement emprisonn\u00e9. Apr\u00e8s s'\u00eatre \u00e9chapp\u00e9 et avoir acquis une immense richesse, il revient sous une nouvelle identit\u00e9 pour se venger de ceux qui l'ont trahi. Cette saga \u00e9pique explore la qu\u00eate de vengeance, la r\u00e9demption et la manipulation dans le contexte de la France du 19\u00e8me si\u00e8cle.\n\n\n\n\n",
+        "chemin": "Data\\Le_comte_de_Monte_Cristo_1.pdf"
+    },
+    "Notre Dame de Paris": {
+        "nom_oeuvre": "Notre Dame de Paris",
+        "description": "\n\"Notre-Dame de Paris\" de Victor Hugo est un drame romantique se d\u00e9roulant dans le Paris m\u00e9di\u00e9val. L'histoire tourne autour d'Esmeralda, une belle boh\u00e9mienne, et de Quasimodo, le sonneur de cloches bossu de la cath\u00e9drale Notre-Dame. Le roman explore les th\u00e8mes de l'amour, de la justice, de la beaut\u00e9 et de la laideur dans une soci\u00e9t\u00e9 marqu\u00e9e par la superstition et l'intol\u00e9rance.",
+        "chemin": "Data\\hugo_notre_dame_de_paris.pdf"
+    }
+}
