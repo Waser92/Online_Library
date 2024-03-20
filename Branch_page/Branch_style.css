@@ -1,7 +1,18 @@
-title {color:rgb(179, 182, 0)
+html{background-color: #313131;
+  Color: rgb(0, 182, 0)}
+
+h1 {
+  text-align: center;
+  color:rgb(179, 182, 0)
+
 }
 
-head  {
+nav {
+  text-align: center;
+  color:rgb(179, 182, 0)
+}
+
+header  {
     background-color: black;
   }
 
@@ -12,13 +23,14 @@ footer {
     color: rgb(0, 182, 0);
   }
 
+div {
+  text-align: center;
+  color: (255, 255, 255);
+}
+
 header {
     text-align: center;
     padding: 5px;
     background-color: #313131;
     color: rgb(0, 182, 0);
   }
-
-
-html{background-color: #313131;
-    Color: rgb(0, 182, 0)}
