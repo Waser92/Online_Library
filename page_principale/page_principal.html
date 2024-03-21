@@ -1,137 +1,146 @@
 <!DOCTYPE html>
 <lang="fr">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <title>Biblioworld</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style_page_principale.css">
     <script src="./page_principale_js.js"></script>
 
-<title>Page with top column</title>
-<style>
-.top-column {
-  background-color: #313131;
-  color: white;
-  text-align: center;
-  padding: 10px;
-}
-</style>
-<div class="top-column">
-    <title>Colonnes du haut</title>
-  <style>
-    .colonne1 {
-      width: 24.5%;
-      height: 10vh;
-      background-color: #313131;
-      float: left;
-    }
-    .colonne2 {
-      width: 15%;
-      height: 10vh;
-      background-color: #313131;
-      float: left;
-    }
-    .colonne3 {
-      width: 40%;
-      height: 10vh;
-      background-color: #313131;
-      float: left;
-    }
-    .colonne4 {
-      width: 20%;
-      height: 10vh;
-      background-color: #313131;
-      float: left;
-    }
-  </style>
-    <div class="colonne1">
+    <title>Page with top column</title>
+    <style>
+      .top-column {
+        background-color: #313131;
+        color: white;
+        text-align: center;
+        padding: 10px;
+      }
+    </style>
+    <div class="top-column">
+      <title>Colonnes du haut</title>
+      <style>
+        .colonne1 {
+          width: 24.5%;
+          height: 10vh;
+          background-color: #313131;
+          float: left;
+        }
+
+        .colonne2 {
+          width: 15%;
+          height: 10vh;
+          background-color: #313131;
+          float: left;
+        }
+
+        .colonne3 {
+          width: 40%;
+          height: 10vh;
+          background-color: #313131;
+          float: left;
+        }
+
+        .colonne4 {
+          width: 20%;
+          height: 10vh;
+          background-color: #313131;
+          float: left;
+        }
+      </style>
+      <div class="colonne1">
         <nav>
-            <title>Recherche</title>
-            <form>
-              <input id="searchbar" onkeyup="search_book()" type="text"
-              name="search" placeholder="Search book..">
-            </form>
+          <title>Recherche</title>
+          <form>
+            <input id="searchbar" onkeyup="search_book()" type="text" name="search" placeholder="Search book..">
+          </form>
         </nav>
-    </div>
-    <div class="colonne2">
-        <img src="C:\Users\topouchian\Documents\GitHub\WebSite\Info\minia.jpg"/>
-    </div>
-    <div class="colonne3">
+      </div>
+      <div class="colonne2">
+        <img src="C:\Users\topouchian\Documents\GitHub\WebSite\Info\minia.jpg" />
+      </div>
+      <div class="colonne3">
         <H1>BiblioWorld</H1>
-    </div>
-    <div class="colonne4">
+      </div>
+      <div class="colonne4">
         <aside>
-            <h2>En relation</h2>
-            <ul>
-              <a href="#">Nous contacter</a>
-            </ul>
+          <h2>En relation</h2>
+          <ul>
+            <a href="#">Nous contacter</a>
+          </ul>
         </aside>
+      </div>
     </div>
-  </div>
 
-  <title>Colonne à gauche</title>
-  <style>
-    .colonne {
-      width: 25%;
-      height: 100vh;
-      background-color: black;
-      float: left;
-      border-top-right-radius: 10px;
-    }
-    .contenu {
-      width: 75%;
-      background-color: #313131;
-      float: left;
-    }
-    .colonne_droite {
-      width:50%;
-      background-color: #313131;
-      float: left;
-    }
-  </style>
+    <title>Colonne à gauche</title>
+    <style>
+      .colonne {
+        width: 25%;
+        height: 100vh;
+        background-color: black;
+        float: left;
+        border-top-right-radius: 10px;
+      }
 
-</head>
-<body>
-  <div class="colonne">
-    <body>
+      .contenu {
+        width: 75%;
+        background-color: #313131;
+        float: left;
+      }
+
+      .colonne_droite {
+        width: 50%;
+        background-color: #313131;
+        float: left;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <div class="colonne">
+
+      <body>
         <h3>Thomas Hugo Baptiste</h3>
         <footer>
-            <H3>Nous contacter</H3>
-            <h1>Bonjour</h1>
+          <H3>Nous contacter</H3>
+          <h1>Bonjour</h1>
         </footer>
-    </body>
-  </div><div class="contenu">
-    <header>
+      </body>
+    </div>
+    <div class="contenu">
+      <header>
         <title>BiblioWorld</title>
         <H2>La première plateforme de livres libre de droits</H2>
         <h3>Vous pouvez traduire vos livres librement !!!</h3>
         <ol id='list'>
           <div class="colonne_droite">
             <a href="#">
-              <h3 class="book">Les Misérables</h3>
-              <img src="C:\Users\topouchian\Documents\GitHub\WebSite\Info\misérables.jpg"/>
+              <p class="book">Les Misérables<br>
+              <img src="C:\Users\topouchian\Documents\GitHub\WebSite\Info\misérables.jpg" /></p>
             </a>
             <a href="#">
-              <h3 class="book">Notre Dame De Paris</h3>
-              <img src="C:\Users\topouchian\Documents\GitHub\WebSite\Info\NDP.jpg"/>
+              <p class="book">Notre Dame De Paris<br>
+              <img src="C:\Users\topouchian\Documents\GitHub\WebSite\Info\NDP.jpg" /></p>
             </a>
             <a href="#">
-              <h3 class="book">Le comte de Monte Cristo</h3>
-              <img src="C:\Users\topouchian\Documents\GitHub\WebSite\Info\Monte_cristo.jpg"/>
+              <p class="book">Le comte de Monte Cristo<br>
+              <img src="C:\Users\topouchian\Documents\GitHub\WebSite\Info\Monte_cristo.jpg" /></p>
             </a>
           </div>
           <div class="colonne_droite">
             <a href="#">
-              <h3 class="book">Les trois Mousquetaire</h3>
-              <img src="C:\Users\topouchian\Documents\GitHub\WebSite\Info\Mousquetaires.jpg"/>
+              <p class="book">Les trois Mousquetaire<br>
+              <img src="C:\Users\topouchian\Documents\GitHub\WebSite\Info\Mousquetaires.jpg" /></p>
             </a>
             <a href="#">
-              <h3 class="book">L'homme qui rit</h3>
-              <img src="C:\Users\topouchian\Documents\GitHub\WebSite\Info\homme_qui_rit.jpg"/>
+              <p class="book">L'homme qui rit<br>
+              <img src="C:\Users\topouchian\Documents\GitHub\WebSite\Info\homme_qui_rit.jpg" /></p>
             </a>
           </div>
         </ol>
-    </header>
-  </div>
-</body>
-</html>
+      </header>
+    </div>
+  </body>
+
+  </html>
