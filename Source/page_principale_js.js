@@ -15,7 +15,7 @@ function search_book() {
 
 
 document.addEventListener("DOMContentLoaded", function() {
-    const livresListe = document.getElementById('book');
+    const book = document.getElementById('book');
 
     // Charger le fichier JSON des livres
     fetch('Data.json')
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 a.textContent = data[livre].nom_oeuvre;
                 a.href = `page_principal.html?nom=${encodeURIComponent(data[livre].nom_oeuvre)}&description=${encodeURIComponent(data[livre].description)}&URL=${encodeURIComponent(data[livre].URL)}`;
                 li.appendChild(a);
-                livresListe.appendChild(li);
+                book.appendChild(li);
             });
         })
         .catch(error => console.error('Erreur lors du chargement des livres:', error));
