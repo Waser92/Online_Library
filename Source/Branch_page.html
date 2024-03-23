@@ -7,26 +7,40 @@
     <title id="titreLivre"></title>
 </head>
 <body>
-  <button type="button">Menu</button>
+    <button type="button" onclick="retourMenu()">Menu</button>
     <h1 id="titreLivre"></h1>
     <nav><strong>Description:</strong></nav>
-    <div>   <span id="description"></span>  </div>
+    <div><span id="description"></span></div>
     <embed id="pdfViewer" width="800" height="500" type="application/pdf"/>
 
     <script>
-        // Récupérer les paramètres de l'URL
-        const params = new URLSearchParams(window.location.search);
-        const nomOeuvre = params.get('nom');
-        const description = params.get('description');
-        const pdfURL = params.get('URL');
+        function retourMenu() {
+            window.location.href = "Page_principal.html";
+        }
 
-        // Afficher les détails du livre
-        document.getElementById('titreLivre').textContent = nomOeuvre;
-        document.getElementById('description').textContent = description;
+        document.addEventListener("DOMContentLoaded", function() {
+            // Récupérer les paramètres de l'URL
+            const params = new URLSearchParams(window.location.search);
+            const nomOeuvre = params.get('nom');
+            const description = params.get('description');
+            const pdfURL = params.get('URL');
 
-        // Charger le PDF
-        const pdfViewer = document.getElementById('pdfViewer');
-        pdfViewer.src = pdfURL;
+            // Vérifier si les paramètres sont présents
+            if (!nomOeuvre || !description || !pdfURL) {
+                console.error('Paramètres d\'URL manquants.');
+                // Redirection vers la page principale ou affichage d'un message d'erreur
+                retourMenu(); // Redirection vers la page principale
+                return;
+            }
+
+            // Afficher les détails du livre
+            document.getElementById('titreLivre').textContent = nomOeuvre;
+            document.getElementById('description').textContent = description;
+
+            // Charger le PDF
+            const pdfViewer = document.getElementById('pdfViewer');
+            pdfViewer.src = pdfURL;
+        });
     </script>
 </body>
 </html>

@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const book = document.getElementById('book');
 
     // Charger le fichier JSON des livres
-    fetch('Data.json')
+    fetch('Main_Data.json')
 
         .then(response => {
             if (!response.ok) {
@@ -37,7 +37,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 const li = document.createElement('li');
                 const a = document.createElement('a');
                 a.textContent = data[livre].nom_oeuvre;
-                a.href = `page_principal.html?nom=${encodeURIComponent(data[livre].nom_oeuvre)}&description=${encodeURIComponent(data[livre].description)}&URL=${encodeURIComponent(data[livre].URL)}`;
+                // Construire le lien avec les paramètres d'URL corrects
+                a.href = `Branch_page.html?nom=${encodeURIComponent(data[livre].nom_oeuvre)}&description=${encodeURIComponent(data[livre].description)}&URL=${encodeURIComponent(data[livre].URL)}`;
                 li.appendChild(a);
                 book.appendChild(li);
             });

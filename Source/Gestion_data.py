@@ -108,7 +108,7 @@ class MyWindow_connection:
     # Méthode pour enregistrer les données saisies
     def save_data(self, nom_oeuvre, description, chemin):
         # Chemin vers le fichier JSON
-        chemin_fichier = 'Data/Main_Data.json'
+        chemin_fichier = 'Main_Data.json'
 
         # Charger les données existantes (si le fichier existe)
         if os.path.exists(chemin_fichier):
