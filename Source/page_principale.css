@@ -59,3 +59,52 @@ input[type=text]:focus {
   font-size:  1.5em;
   margin-left: 90px;
  }
+
+ .colonne_droite {
+  width: 50%;
+  background-color: #313131;
+  float: left;
+}
+
+.colonne {
+  width: 25%;
+  height: 100vh;
+  background-color: black;
+  float: left;
+  border-top-right-radius: 10px;
+}
+
+.contenu {
+  width: 75%;
+  background-color: #313131;
+  float: left;
+}
+
+
+.colonne1 {
+  width: 24.5%;
+  height: 10vh;
+  background-color: #313131;
+  float: left;
+}
+
+.colonne2 {
+  width: 15%;
+  height: 10vh;
+  background-color: #313131;
+  float: left;
+}
+
+.colonne3 {
+  width: 40%;
+  height: 10vh;
+  background-color: #313131;
+  float: left;
+}
+
+.colonne4 {
+  width: 20%;
+  height: 10vh;
+  background-color: #313131;
+  float: left;
+}
