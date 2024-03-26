@@ -5,49 +5,13 @@
     <meta charset="UTF-8">
     <title>Biblioworld</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Page_principale.css">
-    <script src="Page_principale.js"></script>
+    <link rel="stylesheet" href="page_principale.css">
+    <script src="page_principale.js"></script>
 
     <title>Page with top column</title>
-    <style>
-      .top-column {
-        background-color: #313131;
-        color: white;
-        text-align: center;
-        padding: 10px;
-      }
-    </style>
     <div class="top-column">
       <title>Colonnes du haut</title>
-      <style>
-        .colonne1 {
-          width: 24.5%;
-          height: 10vh;
-          background-color: #313131;
-          float: left;
-        }
 
-        .colonne2 {
-          width: 15%;
-          height: 10vh;
-          background-color: #313131;
-          float: left;
-        }
-
-        .colonne3 {
-          width: 40%;
-          height: 10vh;
-          background-color: #313131;
-          float: left;
-        }
-
-        .colonne4 {
-          width: 20%;
-          height: 10vh;
-          background-color: #313131;
-          float: left;
-        }
-      </style>
       <div class="colonne1">
         <nav>
           <title>Recherche</title>
@@ -73,27 +37,6 @@
     </div>
 
     <title>Colonne à gauche</title>
-    <style>
-      .colonne {
-        width: 25%;
-        height: 100vh;
-        background-color: black;
-        float: left;
-        border-top-right-radius: 10px;
-      }
-
-      .contenu {
-        width: 75%;
-        background-color: #313131;
-        float: left;
-      }
-
-      .colonne_droite {
-        width: 50%;
-        background-color: #313131;
-        float: left;
-      }
-    </style>
 
   </head>
 
@@ -113,35 +56,13 @@
         <title>BiblioWorld</title>
         <H2>La première plateforme de livres libre de droits</H2>
         <h3>Vous pouvez traduire vos livres librement !!!</h3>
-        <ol id='list'>
           <div class="colonne_droite">
-            <a href="#">
-              <p class="book">Les Misérables<br>
-              <img src="Info\misérables.jpg" /></p>
-            </a>
-            <a href="#">
-              <p class="book">Notre Dame De Paris<br>
-              <img src="Info\NDP.jpg" /></p>
-            </a>
-            <a href="#">
-              <p class="book">Le comte de Monte Cristo<br>
-              <img src="Info\Monte_cristo.jpg" /></p>
-            </a>
-          </div>
-          <div class="colonne_droite">
-            <a href="#">
-              <p class="book">Les trois Mousquetaire<br>
-              <img src="Info\Mousquetaires.jpg" /></p>
-            </a>
-            <a href="#">
-              <p class="book">L'homme qui rit<br>
-              <img src="Info\homme_qui_rit.jpg" /></p>
-            </a>
-          </div>
-        </ol>
+            <h1>Liste des Livres</h1>
+            <div class="book">
+              <ul id="book">
+              </ul> 
+            </div>
       </header>
     </div>
-    <h1>Liste des Livres</h1>
-    <ul id="book"></ul>  
 </body>
 </html>
