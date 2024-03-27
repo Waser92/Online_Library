@@ -38,6 +38,9 @@ ol {
   margin-left: 15%;
   padding:15px;
   border-radius: 10px;
+  background-color:black;
+  border-color: rgb(0, 182, 0);
+  color:white
 }
 
 input[type=text] {
@@ -114,4 +117,10 @@ input[type=text]:focus {
   color: white;
   text-align: center;
   padding: 10px;
+}
+
+.bouton_ajout{
+  text-align: center;
+  background-color: #313131;
+  border-color: rgb(0, 182, 0);
 }
