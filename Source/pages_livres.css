@@ -1,3 +1,13 @@
-.url{
+body{
 float: center;
+background-color: #313131;
+color: white;
+width:100%;
+}
+
+.Nom-livre{
+    background-color: black;
+    color: white;
+    border-color: rgb(0, 182, 0);
+
 }

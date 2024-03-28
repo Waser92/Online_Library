@@ -8,6 +8,7 @@
     <title>Ajouter un livre:</title>
 </head>
 <body>
+    <button type="button" onclick="retourMenu()">Menu</button>
     <label for="Nom-livre">Nom du livre</label>
     <input type="nom" id="Nom-livre" name="livre">
     <button>Search</button>
@@ -20,6 +21,11 @@
         <label for="auteur">Nom de l'auteur</label>
         <input type="text" id="auteur" name="auteur"
         placeholder="ex:Thomas Pesquet" />
+
+        <script>
+            function retourMenu() {
+                window.location.href = "page_principale.html";
+            }</script>
 
         <form>
             <label for="url">Entrer l'url de la couverture</label>
