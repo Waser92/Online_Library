@@ -48,5 +48,11 @@
         "nom_oeuvre": "Le Comte de Monte Cristo Partie 2",
         "description": "\n\"Le Comte de Monte-Cristo\" de Alexandre Dumas narre l'histoire d'Edmond Dant\u00e8s, un jeune marin injustement emprisonn\u00e9. Apr\u00e8s s'\u00eatre \u00e9chapp\u00e9 et avoir acquis une immense richesse, il revient sous une nouvelle identit\u00e9 pour se venger de ceux qui l'ont trahi. Cette saga \u00e9pique explore la qu\u00eate de vengeance, la r\u00e9demption et la manipulation dans le contexte de la France du 19\u00e8me si\u00e8cle.\n\n\n\n\n",
         "chemin": "Data\\Le_comte_de_Monte_Cristo_2.pdf"
-}
+    },
+    "ippo":{
+        "nom_oeuvre": "ippo",
+        "description": " ippo le boxeur",
+        "chemin": ""
+
+    }
 }

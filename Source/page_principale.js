@@ -31,17 +31,20 @@ document.addEventListener("DOMContentLoaded", function() {
         .catch(error => console.error('Erreur lors du chargement des livres:', error));
 });
 
-function search_book() {
-    let input = document.getElementById('searchbar').value
-    input=input.toLowerCase();
-    let x = document.getElementsByClassName('book');
+
+
+function rechercherEtSupprimerMots() {
+    motRecherche = document.getElementById('searchbar').value
+    var book = document.getElementById('book');
+    var elements = book.getElementsByTagName('p');
+    
+    for (var i = 0; i < elements.length; i++) {
+      var texte = elements[i].innerText;
       
-    for (i = 0; i < x.length; i++) { 
-        if (!x[i].innerHTML.toLowerCase().includes(input)) {
-            x[i].style.display="none";
-        }
-        else {
-            x[i].style.display="list-item";            
-        }
+      if (texte.includes(motRecherche)) {
+        elements[i].style.display = 'block'; // Affiche l'élément s'il contient le mot recherché
+      } else {
+        elements[i].style.display = 'none'; // Masque l'élément s'il ne contient pas le mot recherché
+      }
     }
-}
+  }
