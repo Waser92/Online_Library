@@ -21,13 +21,11 @@ document.addEventListener("DOMContentLoaded", function() {
             Object.keys(data).forEach(livre => {
                 const li = document.createElement('li');
                 const a = document.createElement('a');
-                const b = document.createElement('b');
                 a.textContent = data[livre].nom_oeuvre;
                 b.imageContent = data[livre].image
                 // Construire le lien avec les paramètres d'URL corrects
                 a.href = `Branch_page.html?nom=${encodeURIComponent(data[livre].nom_oeuvre)}&description=${encodeURIComponent(data[livre].description)}&URL=${encodeURIComponent(data[livre].URL)}`;
                 li.appendChild(a);
-                li.appendChild(b);
                 book.appendChild(li);
             });
         })
@@ -52,12 +50,5 @@ function rechercherEtSupprimerMots() {
     }
   }
 
-function sendEmail() {
-  var email = document.getElementById("email").value; // Récupère l'adresse mail saisie
-  var subject = "Sujet du mail";
-  var body = "Contenu du mail";
 
-  window.open("mailto:" + email + "?subject=" + subject + "&body=" + body);
-}
 
-print (book[1])
