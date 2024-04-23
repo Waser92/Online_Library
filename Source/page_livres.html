@@ -9,18 +9,22 @@
 </head>
 <body>
     <button type="button" onclick="retourMenu()">Menu</button>
+
+    <h1>Ajouter un livre</h1>
+
     <label for="Nom-livre">Nom du livre</label>
     <input type="nom" id="Nom-livre" name="livre">
-    <button>Search</button>
-    <input type="submit" value="Publier" />
+    
+
+    
     <div class="url">
         <label for="name">Titre de l'oeuvre</label>
         <input type="text" id="name" name="name" required
         minlength="2" maxlength="50" 
-        placeholder="ex:Ma vie sans Gravité"/>
+        placeholder="Les Misérables"/>
         <label for="auteur">Nom de l'auteur</label>
         <input type="text" id="auteur" name="auteur"
-        placeholder="ex:Thomas Pesquet" />
+        placeholder="Thomas Pesquet" />
 
         <script>
             function retourMenu() {
@@ -33,11 +37,12 @@
             placeholder="https://exemple.com"
             pattern="https://.*" size="30" required />
         </form>
+
         <label for="story">Description de l'oeuvre</label> 
-        
         <textarea id="story" name="Description" rows="10"
         cols="66"></textarea>
 
+        <input type="submit" value="Valider" />
 
 
     </div>

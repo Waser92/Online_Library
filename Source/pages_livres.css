@@ -11,3 +11,26 @@ width:100%;
     border-color: rgb(0, 182, 0);
 
 }
+
+title {color:rgb(179, 182, 0)
+}
+head  {
+    background-color: black;
+  }
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    color: rgb(0, 182, 0);
+  }
+
+
+header {
+    text-align: center;
+    padding: 5px;
+    background-color: #313131;
+    color: rgb(0, 182, 0);
+  }
+
+html{background-color: #313131;
+    Color: rgb(0, 182, 0)}
