@@ -8,20 +8,21 @@
     <title>Ajouter un livre:</title>
 </head>
 <body>
+    <form action="nouveau_livre.php"> method="post"
     <button type="button" onclick="retourMenu()">Menu</button>
 
     <h1>Ajouter un livre</h1>
 
     <label for="Nom-livre">Nom du livre</label>
-    <input type="nom" id="Nom-livre" name="livre">
+    <input type="nom" id="Nom-livre" name="nomlivre">
     
 
     
     <div class="url">
-        <label for="name">Titre de l'oeuvre</label>
-        <input type="text" id="name" name="name" required
+        <label for="Titre">Titre de l'oeuvre</label>
+        <input type="text" id="name" name="Titre" required
         minlength="2" maxlength="50" 
-        placeholder="Les Misérables"/>
+        placeholder="Ma vie sans gravité"/>
         <label for="auteur">Nom de l'auteur</label>
         <input type="text" id="auteur" name="auteur"
         placeholder="Thomas Pesquet" />
@@ -33,18 +34,18 @@
 
         <form>
             <label for="url">Entrer l'url de la couverture</label>
-            <input type="url" name="url-converture" id="url"
+            <input type="url" name="url" id="url"
             placeholder="https://exemple.com"
             pattern="https://.*" size="30" required />
         </form>
 
-        <label for="story">Description de l'oeuvre</label> 
+        <label for="Description">Description de l'oeuvre</label> 
         <textarea id="story" name="Description" rows="10"
         cols="66"></textarea>
 
         <input type="submit" value="Valider" />
 
-
+    </form>
     </div>
 </body>
 </html>
