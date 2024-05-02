@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 const li = document.createElement('li');
                 const a = document.createElement('a');
                 a.textContent = data[livre].nom_oeuvre;
-                b.imageContent = data[livre].image
+                a.imageContent = data[livre].image
                 // Construire le lien avec les paramètres d'URL corrects
                 a.href = `Branch_page.html?nom=${encodeURIComponent(data[livre].nom_oeuvre)}&description=${encodeURIComponent(data[livre].description)}&URL=${encodeURIComponent(data[livre].URL)}`;
                 li.appendChild(a);
@@ -35,20 +35,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 function rechercherEtSupprimerMots() {
-    motRecherche = document.getElementById('searchbar').value
-    var book = document.getElementById('book');
-    var elements = book.getElementsByTagName('p');
-    
-    for (var i = 0; i < elements.length; i++) {
-      var texte = elements[i].innerText;
-      
-      if (texte.includes(motRecherche)) {
-        elements[i].style.display = 'block'; // Affiche l'élément s'il contient le mot recherché
-      } else {
-        elements[i].style.display = 'none'; // Masque l'élément s'il ne contient pas le mot recherché
-      }
+  var motRecherche = document.getElementById('searchbar').value.toLowerCase();
+  var book = document.getElementById('book');
+  var elements = book.getElementsByTagName('li');
+
+  for (var i = 0; i < elements.length; i++) {
+    var texte = elements[i].textContent.toLowerCase();
+
+    if (texte.includes(motRecherche)) {
+      elements[i].style.display = 'block'; // Affiche l'élément s'il contient le mot recherché
+    } else {
+      elements[i].style.display = 'none'; // Masque l'élément s'il ne contient pas le mot recherché
     }
   }
-
+}
 
 
