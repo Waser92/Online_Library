@@ -11,7 +11,8 @@
     <h1 id="titreLivre"></h1>
     <nav><strong>Description:</strong></nav>
     <div><span id="description"></span></div>
-    <embed id="pdfViewer" width="800" height="500" type="application/pdf"/>
+    <embed id="pdfViewer" width="800" height="500" type="application/pdf" src="">
+
 
     <script>
         function retourMenu() {
@@ -37,9 +38,11 @@
             document.getElementById('titreLivre').textContent = nomOeuvre;
             document.getElementById('description').textContent = description;
 
-            // Charger le PDF
+           // Charger le PDF
             const pdfViewer = document.getElementById('pdfViewer');
-            pdfViewer.src = pdfURL;
+            pdfViewer.src = `${window.location.origin}/${pdfURL}`;
+
+            
         });
     </script>
 </body>
