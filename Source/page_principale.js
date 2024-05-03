@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 // Construire le lien avec les paramètres d'URL corrects
                 a.href = `Branch_page.html?nom=${encodeURIComponent(data[livre].nom_oeuvre)}&description=${encodeURIComponent(data[livre].description)}&URL=${encodeURIComponent(data[livre].URL)}`;
                 li.appendChild(a);
+                li.appendChild(imagejavascript)
                 book.appendChild(li);
-                book.appendChild(imagejavascript)
             });
         })
         .catch(error => console.error('Erreur lors du chargement des livres:', error));
@@ -52,4 +52,19 @@ function rechercherEtSupprimerMots() {
   }
 }
 
+function rechercheMot_coche() {
+  // Récupérer le mot depuis le bouton sur la page
+  const mot = document.getElementById('coche').value.toLowerCase();;
+  const a = document.createElement('a');
+  var elements = book.getElementsByTagName('li');
+  a.textContent = data[livre].genre;
 
+  for (var i = 0; i < a.length; i++) {
+    var texte = a[i].textContent.toLowerCase();
+    if (texte.includes(motRecherche)){
+      elements[i].style.display = 'block';
+    } else{
+      elements[i].style.display = 'none';
+    }
+  }
+}

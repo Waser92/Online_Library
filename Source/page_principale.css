@@ -125,5 +125,11 @@ input[type=text]:focus {
   border-color: rgb(0, 182, 0);
 }
 
-input[type="checkbox"] 
-{ margin-right: 5px; }
+.coche{
+  margin-left: 15%;
+  padding:15px;
+  border-radius: 10px;
+  background-color:black;
+  border-color: rgb(0, 182, 0);
+  color:white
+}
