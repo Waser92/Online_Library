@@ -21,12 +21,14 @@ document.addEventListener("DOMContentLoaded", function() {
             Object.keys(data).forEach(livre => {
                 const li = document.createElement('li');
                 const a = document.createElement('a');
+                const imagejavascript = document.createElement("img");
                 a.textContent = data[livre].nom_oeuvre;
-                a.imageContent = data[livre].image
+                imagejavascript.src = data[livre].image
                 // Construire le lien avec les paramètres d'URL corrects
                 a.href = `Branch_page.html?nom=${encodeURIComponent(data[livre].nom_oeuvre)}&description=${encodeURIComponent(data[livre].description)}&URL=${encodeURIComponent(data[livre].URL)}`;
                 li.appendChild(a);
                 book.appendChild(li);
+                book.appendChild(imagejavascript)
             });
         })
         .catch(error => console.error('Erreur lors du chargement des livres:', error));

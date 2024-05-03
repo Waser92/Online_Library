@@ -124,3 +124,6 @@ input[type=text]:focus {
   background-color: #313131;
   border-color: rgb(0, 182, 0);
 }
+
+input[type="checkbox"] 
+{ margin-right: 5px; }
