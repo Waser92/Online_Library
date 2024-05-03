@@ -1,17 +1,9 @@
 {
-<<<<<<< HEAD
-    "Les Mis\u00e9rables Partie 1": {
-        "nom_oeuvre": "Les Mis\u00e9rables Partie 1",
-        "description": "\n\"Les Mis\u00e9rables\" de Victor Hugo est un roman \u00e9pique qui suit la vie de Jean Valjean, un ancien bagnard, et son parcours vers la r\u00e9demption dans la France du 19\u00e8me si\u00e8cle. L'histoire explore les th\u00e8mes de l'injustice sociale, de l'amour et du sacrifice \u00e0 travers les destins entrelac\u00e9s de Valjean, Fantine, Cosette et d'autres personnages embl\u00e9matiques. Hugo peint un tableau vibrant de la soci\u00e9t\u00e9 de l'\u00e9poque, mettant en lumi\u00e8re les luttes des classes d\u00e9favoris\u00e9es et les contradictions morales de la soci\u00e9t\u00e9",
-        "chemin": "Data\\Partie1.pdf",
-        "image": "misérables.jpg"
-=======
     "Les Misérables Partie 1": {
         "nom_oeuvre": "Les Misérables Partie 1",
         "description": "\"Les Misérables\" de Victor Hugo est un roman épique qui suit la vie de Jean Valjean, un ancien bagnard, et son parcours vers la rédemption dans la France du 19ème siècle. L'histoire explore les thèmes de l'injustice sociale, de l'amour et du sacrifice à travers les destins entrelacés de Valjean, Fantine, Cosette et d'autres personnages emblématiques. Hugo peint un tableau vibrant de la société de l'époque, mettant en lumière les luttes des classes défavorisées et les contradictions morales de la société.",
         "URL": "Data/Partie1.pdf",
         "image": "Info/misérables.jpg"
->>>>>>> e4e8955dbc82cf09ed909646cd9d34ed14bac591
     },
     "L'homme qui rit": {
         "nom_oeuvre": "L'homme qui rit",
@@ -66,11 +58,5 @@
         "description": "\"Le Comte de Monte-Cristo\" de Alexandre Dumas narre l'histoire d'Edmond Dantès, un jeune marin injustement emprisonné. Après s'être échappé et avoir acquis une immense richesse, il revient sous une nouvelle identité pour se venger de ceux qui l'ont trahi. Cette saga épique explore la quête de vengeance, la rédemption et la manipulation dans le contexte de la France du 19ème siècle.",
         "URL": "Data/Le_comte_de_Monte_Cristo_2.pdf",
         "image": "Info/monte_cristo.jpg"
-    },
-    "ippo":{
-        "nom_oeuvre": "ippo",
-        "description": "ippo le boxeur",
-        "URL": "",
-        "image": ""
     }
 }
