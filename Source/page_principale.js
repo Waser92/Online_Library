@@ -71,16 +71,17 @@ function CocheMots() {
   Object.keys(data).forEach(livre => {
     const a = document.createElement('a');
     a.textContent = data[livre].genre;
-
-  for (var i = 0; i < a.length; i++) {
-    var texte = a[i].textContent.toLowerCase();
-
-    if (texte.includes(motRecherche)) {
-      a[i].style.display = 'block'; // Affiche l'élément s'il contient le mot recherché
-    } else {
-      a[i].style.display = 'none'; // Masque l'élément s'il ne contient pas le mot recherché
+    var book = document.getElementById('book');
+    var elements = book.getElementsByTagName('li');
+    var i = 0
+      if (a===motRecherche) {
+        elements[i].style.display = 'block'; // Affiche l'élément s'il contient le mot recherché
+      } else {
+        elements[i].style.display = 'none'; // Masque l'élément s'il ne contient pas le mot recherché
+      }
+    var i=i+1
     }
-  }})
+  )
   })
 }
 
