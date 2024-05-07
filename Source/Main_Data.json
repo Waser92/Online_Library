@@ -3,60 +3,70 @@
         "nom_oeuvre": "Les Misérables Partie 1",
         "description": "\"Les Misérables\" de Victor Hugo est un roman épique qui suit la vie de Jean Valjean, un ancien bagnard, et son parcours vers la rédemption dans la France du 19ème siècle. L'histoire explore les thèmes de l'injustice sociale, de l'amour et du sacrifice à travers les destins entrelacés de Valjean, Fantine, Cosette et d'autres personnages emblématiques. Hugo peint un tableau vibrant de la société de l'époque, mettant en lumière les luttes des classes défavorisées et les contradictions morales de la société.",
         "URL": "Data/Partie1.pdf",
-        "image": "Info/misérables.jpg"
+        "image": "Info/misérables.jpg",
+        "genre": "Fantaisie"
     },
     "L'homme qui rit": {
         "nom_oeuvre": "L'homme qui rit",
         "description": "\"L'Homme qui rit\" de Victor Hugo raconte l'histoire de Gwynplaine, un homme défiguré par un sourire permanent taillé dans son visage. Adopté par des saltimbanques, il se retrouve pris dans les rouages de la politique et de l'amour. Ce roman explore les thèmes de l'identité, de la justice sociale et de la quête de bonheur dans une société marquée par l'inégalité.",
         "URL": "Data/L'Homme qui rit.pdf",
-        "image": "Info/homme_qui_rit.jpg"
+        "image": "Info/homme_qui_rit.jpg",
+        "genre": "Fantaisie"
     },
     "Les trois mousquetaires": {
         "nom_oeuvre": "Les trois mousquetaires",
         "description": "\"Les Trois Mousquetaires\" de Alexandre Dumas suit les aventures de d'Artagnan, un jeune homme ambitieux, qui rejoint les mousquetaires du roi Louis XIII à Paris. Avec ses compagnons Athos, Porthos et Aramis, d'Artagnan se lance dans des duels, des complots politiques et des intrigues amoureuses dans le tumulte de la France du 17ème siècle.",
         "URL": "Data/Les trois mousquetaires.pdf",
-        "image": "Info/trois_mousquetaires.jpg"
+        "image": "Info/trois_mousquetaires.jpg",
+        "genre": "Fantaisie"
     },
     "Le Comte de Monte Cristo Partie 1": {
         "nom_oeuvre": "Le Comte de Monte Cristo Partie 1",
         "description": "\"Le Comte de Monte-Cristo\" de Alexandre Dumas narre l'histoire d'Edmond Dantès, un jeune marin injustement emprisonné. Après s'être échappé et avoir acquis une immense richesse, il revient sous une nouvelle identité pour se venger de ceux qui l'ont trahi. Cette saga épique explore la quête de vengeance, la rédemption et la manipulation dans le contexte de la France du 19ème siècle.",
         "URL": "Data/Le_comte_de_Monte_Cristo_1.pdf",
-        "image": "Info/monte_cristo.jpg"
+        "image": "Info/monte_cristo.jpg",
+        "genre": "Fantaisie"
     },
     "Notre Dame de Paris": {
         "nom_oeuvre": "Notre Dame de Paris",
         "description": "\"Notre-Dame de Paris\" de Victor Hugo est un drame romantique se déroulant dans le Paris médiéval. L'histoire tourne autour d'Esmeralda, une belle bohémienne, et de Quasimodo, le sonneur de cloches bossu de la cathédrale Notre-Dame. Le roman explore les thèmes de l'amour, de la justice, de la beauté et de la laideur dans une société marquée par la superstition et l'intolérance.",
         "URL": "Data/hugo_notre_dame_de_paris.pdf",
-        "image": "Info/notre_dame_de_paris.jpg"
+        "image": "Info/notre_dame_de_paris.jpg",
+        "genre": "Fantaisie"
     },
     "Les Misérables Partie 2": {
         "nom_oeuvre": "Les Misérables Partie 2",
         "description": "\"Les Misérables\" de Victor Hugo est un roman épique qui suit la vie de Jean Valjean, un ancien bagnard, et son parcours vers la rédemption dans la France du 19ème siècle. L'histoire explore les thèmes de l'injustice sociale, de l'amour et du sacrifice à travers les destins entrelacés de Valjean, Fantine, Cosette et d'autres personnages emblématiques. Hugo peint un tableau vibrant de la société de l'époque, mettant en lumière les luttes des classes défavorisées et les contradictions morales de la société",
         "URL": "Data/Partie2.pdf",
-        "image": "Info/misérables.jpg"
+        "image": "Info/misérables.jpg",
+        "genre": "Aventure"
     },
     "Les Misérables Partie 3": {
         "nom_oeuvre": "Les Misérables Partie 3",
         "description": "\"Les Misérables\" de Victor Hugo est un roman épique qui suit la vie de Jean Valjean, un ancien bagnard, et son parcours vers la rédemption dans la France du 19ème siècle. L'histoire explore les thèmes de l'injustice sociale, de l'amour et du sacrifice à travers les destins entrelacés de Valjean, Fantine, Cosette et d'autres personnages emblématiques. Hugo peint un tableau vibrant de la société de l'époque, mettant en lumière les luttes des classes défavorisées et les contradictions morales de la société",
         "URL": "Data/Partie3.pdf",
-        "image": "Info/misérables.jpg"
+        "image": "Info/misérables.jpg",
+        "genre": "Aventure"
     },
     "Les Misérables Partie 4": {
         "nom_oeuvre": "Les Misérables Partie 4",
         "description": "\"Les Misérables\" de Victor Hugo est un roman épique qui suit la vie de Jean Valjean, un ancien bagnard, et son parcours vers la rédemption dans la France du 19ème siècle. L'histoire explore les thèmes de l'injustice sociale, de l'amour et du sacrifice à travers les destins entrelacés de Valjean, Fantine, Cosette et d'autres personnages emblématiques. Hugo peint un tableau vibrant de la société de l'époque, mettant en lumière les luttes des classes défavorisées et les contradictions morales de la société",
         "URL": "Data/Partie4.pdf",
-        "image": "Info/misérables.jpg"
+        "image": "Info/misérables.jpg",
+        "genre": "Aventure"
     },
     "Les Misérables Partie 5": {
         "nom_oeuvre": "Les Misérables Partie 5",
         "description": "\"Les Misérables\" de Victor Hugo est un roman épique qui suit la vie de Jean Valjean, un ancien bagnard, et son parcours vers la rédemption dans la France du 19ème siècle. L'histoire explore les thèmes de l'injustice sociale, de l'amour et du sacrifice à travers les destins entrelacés de Valjean, Fantine, Cosette et d'autres personnages emblématiques. Hugo peint un tableau vibrant de la société de l'époque, mettant en lumière les luttes des classes défavorisées et les contradictions morales de la société",
         "URL": "Data/Partie5.pdf",
-        "image": "Info/misérables.jpg"
+        "image": "Info/misérables.jpg",
+        "genre": "Aventure"
     },
     "Le Comte de Monte Cristo Partie 2": {
         "nom_oeuvre": "Le Comte de Monte Cristo Partie 2",
         "description": "\"Le Comte de Monte-Cristo\" de Alexandre Dumas narre l'histoire d'Edmond Dantès, un jeune marin injustement emprisonné. Après s'être échappé et avoir acquis une immense richesse, il revient sous une nouvelle identité pour se venger de ceux qui l'ont trahi. Cette saga épique explore la quête de vengeance, la rédemption et la manipulation dans le contexte de la France du 19ème siècle.",
         "URL": "Data/Le_comte_de_Monte_Cristo_2.pdf",
-        "image": "Info/monte_cristo.jpg"
+        "image": "Info/monte_cristo.jpg",
+        "genre": "Aventure"
     }
 }
