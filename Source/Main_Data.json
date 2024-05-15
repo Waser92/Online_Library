@@ -68,5 +68,10 @@
         "URL": "Data/Le_comte_de_Monte_Cristo_2.pdf",
         "image": "Info/monte_cristo.jpg",
         "genre": "Aventure"
+    },
+    "Tom Sawyer" : {
+        "nom_oeuvre": "Les aventures de Tom Sawyer",
+        "description": "\"
+
     }
 }
