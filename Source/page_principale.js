@@ -37,6 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 function rechercherEtSupprimerMots() {
+  
   var motRecherche = document.getElementById('searchbar').value.toLowerCase();
   var book = document.getElementById('book');
   var elements = book.getElementsByTagName('li');
@@ -52,19 +53,31 @@ function rechercherEtSupprimerMots() {
   }
 }
 
-function rechercheMot_coche() {
-  // Récupérer le mot depuis le bouton sur la page
-  const mot = document.getElementById('coche').value.toLowerCase();;
+function rechercheMot_coche(value) {
+      // Charger le fichier JSON des livres
+      fetch('Main_Data.json')
+
+      .then(response => {
+          if (!response.ok) {
+              throw new Error('Erreur lors du chargement du fichier JSON');
+          }
+          return response.json();
+      })
+      .then(data => {
+          // Vérifier si des données ont été chargées
+          if (!data || Object.keys(data).length === 0) {
+              throw new Error('Aucune donnée de livre trouvée dans le fichier JSON');
+          }
   const a = document.createElement('a');
   var elements = book.getElementsByTagName('li');
   a.textContent = data[livre].genre;
 
   for (var i = 0; i < a.length; i++) {
     var texte = a[i].textContent.toLowerCase();
-    if (texte.includes(motRecherche)){
+    if (texte.includes(value)){
       elements[i].style.display = 'block';
     } else{
       elements[i].style.display = 'none';
     }
   }
-}
+})}
