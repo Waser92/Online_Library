@@ -11,22 +11,21 @@
     <form action="nouveau_livre.php"> 
     <button type="button" onclick="retourMenu()">Menu</button>
 
-    <h1>Ajouter un livre</h1>
+    <h1>Propose un livre que tu voudrais voir dans la bibliothèque</h1>
 
-    <label for="Nom-livre">Nom du livre</label>
-    <input type="nom" id="Nom-livre" name="nomlivre">
-    
-
+    <br>
     
     <div class="url">
         <label for="Titre">Titre de l'oeuvre</label>
         <input type="text" id="name" name="Titre" required
         minlength="2" maxlength="50" 
-        placeholder="Ma vie sans gravité"/>
+        placeholder="Les Misérables"/>
+        <br>
+
         <label for="auteur">Nom de l'auteur</label>
         <input type="text" id="auteur" name="auteur"
-        placeholder="Thomas Pesquet" />
-
+        placeholder="Victor Hugo" />
+        <br>
         <script>
             function retourMenu() {
                 window.location.href = "page_principale.html";
@@ -38,11 +37,12 @@
             placeholder="https://exemple.com"
             pattern="https://.*" size="30" required />
         </form>
+        <br>
 
         <label for="Description">Description de l'oeuvre</label> 
         <textarea id="story" name="Description" rows="10"
-        cols="66"></textarea>
-
+        cols="66" placeholder="Les Misérables sont ... "></textarea>
+        <br>
         <input type="text" id="email" placeholder="Entrer une adresse e-mail">
         <button type="button" onclick="envoyerMail()">valider</button>
 
