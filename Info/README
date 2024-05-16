@@ -1,18 +1,29 @@
 https://waser92.github.io/WebSite/
+GMAIL adresse
+nom d'utilisateur: biblioword692
+mdp: projetdeNSI
+
 Par Thomas Hugo Baptiste
 GMAIL adresse
 nom d'utilisateur: biblioword692
 mdp: projetdeNSI
 
 
-
+OBJECTIF:
 Nous souhaitons développer une Bibiothèque en ligne Libre de Droit.
-Sur un seul et même site, n'importe qui peut accèder aux livres libres de Droit grâce à notre base de données qui regroupent toutes les oeuvres libres d'auteurs français.
+Sur un seul et même site, n'importe qui peut accèder aux livres libres de Droit grâce à notre base de données qui regroupent des oeuvres du monde entier.
 
 La Web Application sera codé exclusivement en HTML CSS et JAVASCRIPT
 Le site sera structuré en plusieurs pages.
     -La page principal: Elle sera la page d'accueil, les utilisateurs pourront chercher l'oeuvre qu'ils souhaitent grâce à la barre de recherche.
     -Les Pages secondaires: Ce seront les pages dediées aux oeuvres, les utilisateurs avant de commencer leur lecture pourront connaître le résumer de l'oeuvre et pourront commenter le livre.
-
+    -La page de formulaire: L'utilisateur aurra la popssiibiluté de nous proposer un livre afin que nous le rajoutions
 
 NOS FICHIERS
+-La page page_principale.html est la page d'accueil de notre site. Celle-ci permet à un utilisateur de trouver un livre qui leur correspond grace à notre liste de livre, nos filtres qui permettent de sélectionner un genre littéraire, et notre barre de recherche.
+-Le fichier page_principale.css est le fichier CSS qui permet le style de la page_principale.html.
+-Le fichier page_principale.js est le fichier JavaScript qui permet le bon fonctionnement de la barre de recherche et l'affichage de la liste relative à partir de la base de donnée Main_Data.json
+-La page Branch_page.html est le fichier html d'une page relative. Dès que l'on clique sur le nom d'un livre de la liste de la page principale. L'utilisateur est envoyé sur cette page et peut lire le livre sous le format pdf en plus d'avoir accès à un résumé de l'oeuvre.
+-La page Branch_page.css est la page CSS de style de notre page Branch Page. Elle permet notamment le cohérence visuelle entre nos différentes pages.
+-La page Branch_page.js est le fichier JavaScript du fichier Branch_page.html. Ce fichier permet la récupération des données du fichier Main_Data.json en fonction du livre sur lequel l'utilisateur a cliqué. Une fois la récupération effectué, notre page peut afficher le pdf ainsi que le titre du livre et une courte description.
+-La page page_livres.html est le fichier de formulaire qui permet à un  utilisateur de nous proposer un livre. Ce fichier permet de nous envoyer un mail directement sur cette page.
