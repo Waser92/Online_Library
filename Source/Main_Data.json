@@ -102,6 +102,13 @@
         "URL":"Data/Deux_ans_de_vacances.pdf",
         "genre": "Aventure"
     },
+    "Le Tour du monde en 80 jours":{
+        "nom_oeuvre": "Le Tour du monde en 80 jours ",
+        "description": "Le Tour du monde en 80 jours est un roman d'aventure de l'écrivain français Jules Verne, publié en 1873. L'histoire suit le gentleman anglais Phileas Fogg et son serviteur, Passepartout, dans leur incroyable voyage autour du monde. Ils tentent de relever un défi lancé par Fogg : accomplir le tour du monde en 80 jours pour remporter un pari. Le roman est rempli d'aventures, de rebondissements et de rencontres inattendues, offrant une immersion captivante dans les différentes cultures et paysages traversés lors de ce périple extraordinaire.",
+        "URL": "Data/Le_tour_du_monde_en_80_jours.pdf",
+        "image": "",
+        "genre": "Aventure"
+    },
     "Le petit prince" :{
         "nom_oeuvre": "Le petit Prince",
         "description": "Le Petit Prince est un conte philosophique écrit par Antoine de Saint-Exupéry. L'histoire commence lorsque le narrateur, un pilote échoué dans le désert, rencontre un petit prince venu d'une autre planète. À travers les conversations entre le petit prince et le narrateur, le livre explore des thèmes profonds tels que l'amour, l'amitié, la solitude, et la quête de sens dans la vie. Le petit prince partage avec le narrateur ses observations sur le comportement humain et sa propre expérience de vie sur différentes planètes qu'il a visitées. Avec ses illustrations charmantes et son langage poétique, Le Petit Prince est une œuvre intemporelle qui touche le cœur des lecteurs de tous âges et les invite à réfléchir sur les choses importantes de la vie.",
@@ -116,11 +123,33 @@
         "image":"",
         "genre":"Aventure"
     },
-
+    "La gloire de mon père" :{
+        "nom_oeuvre":"La Gloire de mon père",
+        "description": "La Gloire de mon père est un récit autobiographique de l'écrivain français Marcel Pagnol. Publié en 1957, ce livre relate les souvenirs d'enfance de l'auteur dans le sud de la France, notamment ses vacances estivales passées dans les collines provençales avec sa famille. Pagnol y décrit avec tendresse et humour les personnages hauts en couleur de son entourage, ainsi que les aventures et les découvertes qui ont marqué son enfance. Ce récit est empreint de nostalgie et d'une profonde affection pour la région provençale, offrant un portrait vivant et chaleureux de la vie en Provence au début du XXe siècle.",
+        "URL": "Data/La_gloire_de_mon_père.pdf",
+        "image":"",
+        "genre": "Aventure"
+    },
+    "La Dame aux Camélias":{
+        "nom_oeuvre": "La Dame aux camélias",
+        "description": "La Dame aux camélias est un roman écrit par Alexandre Dumas fils et publié en 1848. Il raconte l'histoire de Marguerite Gautier, une courtisane parisienne célèbre pour sa beauté et son charme. Lorsqu'elle rencontre le jeune Armand Duval, ils tombent éperdument amoureux l'un de l'autre. Cependant, leur relation est entravée par les conventions sociales et les préjugés de la société de l'époque. Le roman explore les thèmes de l'amour, du sacrifice et de la moralité, offrant un regard poignant sur la condition humaine et les dilemmes moraux auxquels les personnages sont confrontés.",
+        "URL": "Data/La_dame_aux_camélias.pdf",
+        "image": "",
+        "genre": "Roman"
+    },
+    "Pinochio": {
+        "nom_oeuvre": "Pinochio",
+        "description": "Pinocchio est un conte de fées classique écrit par l'auteur italien Carlo Collodi et publié en 1883. L'histoire suit les aventures d'un pantin de bois nommé Pinocchio, fabriqué par le menuisier Geppetto. Animé par la Fée bleue, Pinocchio aspire à devenir un vrai garçon. Cependant, son chemin est semé d'embûches alors qu'il se retrouve entraîné dans des situations périlleuses et rencontre une galerie de personnages colorés, y compris le rusé Renard et le Chat. Le récit explore des thèmes de l'apprentissage, de la responsabilité et de la transformation, offrant une leçon intemporelle sur la valeur de la vérité, de la gentillesse et du courage.",
+        "URL": "Data/Pinocchio.pdf",
+        "image": "",
+        "genre": "Roman" 
+    },
     "ippo":{
         "nom_oeuvre": "ippo",
-        "description": " ippo le boxeur",
-        "chemin": ""
+        "description": "Ippo est un manga japonais écrit et illustré par George Morikawa. Il raconte l'histoire d'un jeune lycéen timide et maladroit nommé Makunouchi Ippo, qui est constamment intimidé par ses camarades de classe. Un jour, alors qu'il est victime de harcèlement, il est secouru par un boxeur itinérant. Impressionné par la force et la discipline du boxeur, Ippo se lance dans la boxe pour gagner confiance en lui et devenir plus fort. Le manga suit son parcours de boxeur débutant alors qu'il s'entraîne dur, surmonte des obstacles et participe à des combats pour atteindre son rêve de devenir champion. Ippo est salué pour ses scènes de combat dynamiques, son développement de personnage profond et son exploration des thèmes de la détermination, du dépassement de soi et de l'amitié.",
+        "URL": "",
+        "image": "",
+        "genre": "Manga"
     }
     
 }
