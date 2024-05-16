@@ -77,5 +77,8 @@
         "nom_oeuvre": "ippo",
         "description": " ippo le boxeur",
         "chemin": ""
+    },
+    "Nouveau livre test":{
+        "nom_oeuvre" : "test"    
     }
 }
