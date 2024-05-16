@@ -52,6 +52,13 @@ function rechercherEtSupprimerMots() {
   }
 }
 
+function rechercheMot_coche() {
+  // Récupérer le mot depuis le bouton sur la page
+  const mot = document.getElementById('coche').value.toLowerCase();;
+  const a = document.createElement('a');
+  var elements = book.getElementsByTagName('li');
+  a.textContent = data[livre].genre;
+
 
 function CocheMots() {
   fetch('Main_Data.json')
@@ -73,16 +80,13 @@ function CocheMots() {
     a.textContent = data[livre].genre;
     var book = document.getElementById('book');
     var elements = book.getElementsByTagName('li');
-    var i = 0
-      if (a===motRecherche) {
-        elements[i].style.display = 'block'; // Affiche l'élément s'il contient le mot recherché
-      } else {
-        elements[i].style.display = 'none'; // Masque l'élément s'il ne contient pas le mot recherché
+    var i = 0 
+    for (var i = 0; i < a.length; i++) {
+      var texte = a[i].textContent.toLowerCase();
+      if (texte.includes(motRecherche)){
+        elements[i].style.display = 'block';
+      } else{
+        elements[i].style.display = 'none';
       }
-    var i=i+1
     }
-  )
   })
-}
-
-
