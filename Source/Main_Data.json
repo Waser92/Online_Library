@@ -1,4 +1,4 @@
-{
+{  
     "Les Misérables Partie 1": {
         "nom_oeuvre": "Les Misérables Partie 1",
         "description": "\"Les Misérables\" de Victor Hugo est un roman épique qui suit la vie de Jean Valjean, un ancien bagnard, et son parcours vers la rédemption dans la France du 19ème siècle. L'histoire explore les thèmes de l'injustice sociale, de l'amour et du sacrifice à travers les destins entrelacés de Valjean, Fantine, Cosette et d'autres personnages emblématiques. Hugo peint un tableau vibrant de la société de l'époque, mettant en lumière les luttes des classes défavorisées et les contradictions morales de la société.",
@@ -68,5 +68,17 @@
         "URL": "Data/Le_comte_de_Monte_Cristo_2.pdf",
         "image": "Info/monte_cristo.jpg",
         "genre": "Aventure"
+    },
+    "Tom Sawyer" : {
+        "nom_oeuvre": "Les aventures de Tom Sawyer",
+        "description": ""
+    },
+    "ippo":{
+        "nom_oeuvre": "ippo",
+        "description": " ippo le boxeur",
+        "chemin": ""
+    },
+    "Nouveau livre test":{
+        "nom_oeuvre" : "test"    
     }
 }
