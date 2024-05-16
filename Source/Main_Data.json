@@ -1,4 +1,3 @@
-
 {  
     "Les Misérables Partie 1": {
         "nom_oeuvre": "Les Misérables Partie 1",
@@ -73,6 +72,10 @@
     "Tom Sawyer" : {
         "nom_oeuvre": "Les aventures de Tom Sawyer",
         "description": ""
+    },
+    "ippo":{
+        "nom_oeuvre": "ippo",
+        "description": " ippo le boxeur",
+        "chemin": ""
     }
 }
-        
