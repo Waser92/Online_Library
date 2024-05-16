@@ -71,14 +71,56 @@
     },
     "Tom Sawyer" : {
         "nom_oeuvre": "Les aventures de Tom Sawyer",
-        "description": ""
+        "description": "Tom Sawyer est le personnage principal du célèbre roman Les Aventures de Tom Sawyer écrit par Mark Twain. Il est un jeune garçon espiègle et aventureux, vivant dans la petite ville fictive de St. Petersburg, au Missouri, dans les années 1840. Tom est connu pour son esprit indépendant, son imagination débordante et son amour pour l'exploration. Il est souvent accompagné de son meilleur ami Huckleberry Finn et est constamment à la recherche d'excitation et de liberté. Malgré son penchant pour les bêtises et les farces, Tom a un cœur généreux et un sens de la justice qui l'amène souvent à se retrouver au cœur d'aventures fascinantes et parfois dangereuses.",
+        "URL": "Data/Tom_Sawyer.pdf",
+        "image":"" ,
+        "genre": "Aventure"
     },
+    "Vingt mille lieues sous les mers": {
+        "nom_oeuvre": "Vingt mille lieues ssous les mers",
+        "description": "Vingt mille lieues sous les mers est un célèbre roman d'aventures écrit par Jules Verne. L'histoire suit les exploits du Professeur Aronnax, son fidèle assistant Conseil et un harponneur canadien nommé Ned Land, qui sont capturés par le mystérieux capitaine Nemo à bord du sous-marin futuriste, le Nautilus. Ensemble, ils parcourent les océans du monde, découvrant des merveilles sous-marines, affrontant des dangers marins et explorant les profondeurs inconnues de l'océan. Le roman explore des thèmes tels que la science, l'aventure, la nature humaine et la relation entre l'homme et la mer, tout en capturant l'imagination avec son récit passionnant et ses descriptions détaillées du monde sous-marin.",
+        "URL": "Data/Vingt_mille_lieues_sous_les_mers.pdf",
+        "image": "",
+        "genre": "Aventure"
+    },
+    "Voyage au centre de la Terre" : {
+        "nom_oeuvre": "Voyage au centre de la Terre",
+        "description": "Voyage au centre de la Terre est un roman d'aventures captivant écrit par Jules Verne. L'histoire suit les péripéties du professeur Otto Lidenbrock, un géologue intrépide, et son neveu Axel, qui découvrent un manuscrit ancien révélant l'existence d'un chemin menant au centre de la Terre. Ils entreprennent alors un voyage audacieux à travers les profondeurs de la planète, explorant des cavernes mystérieuses, affrontant des dangers inimaginables et découvrant des paysages fantastiques. Tout au long de leur périple, ils font face à des épreuves scientifiques, des rencontres étranges et des énigmes intrigantes, tout en cherchant à percer les mystères du monde souterrain. Ce récit envoûtant captive l'imagination avec son sens de l'aventure, ses descriptions détaillées et son exploration des merveilles cachées de la Terre.",
+        "URL": "Data/Voyage_au_centre_de_la_terre.pdf",
+        "image": "",
+        "genre": "Aventure"
+    },
+    "L'île mystérieuse": {
+        "nom_oeuvre" : "L'île mystérieuse",
+        "description" :"L'Île mystérieuse est un roman d'aventures écrit par Jules Verne. L'histoire commence avec cinq hommes naufragés sur une île déserte du Pacifique après avoir survécu à un naufrage. Ils doivent apprendre à survivre dans cet environnement hostile en utilisant leurs compétences et leur ingéniosité. Peu à peu, ils découvrent que l'île cache de nombreux mystères, notamment des ressources étranges et des phénomènes inexplicables. Au fil du récit, les naufragés réalisent qu'ils ne sont pas seuls sur l'île et que quelqu'un semble les surveiller. L'Île mystérieuse est un récit palpitant qui mêle aventure, exploration et suspense, tout en mettant en valeur la force de l'esprit humain face à l'adversité.",
+        "URL":"Data/L'île_mystérieuse.pdf",
+        "genre": "Aventure"
+    },
+    "Deux ans de Vacances": {
+        "nom_oeuvre": "Deux ans de vacances",
+        "description": "Deux ans de vacances est un roman d'aventures écrit par Jules Verne. L'histoire suit un groupe de jeunes garçons qui se retrouvent échoués sur une île déserte après le naufrage de leur navire. Livrés à eux-mêmes, ils doivent apprendre à survivre dans cet environnement hostile et à s'organiser pour faire face aux défis de la nature. Au fil du récit, les garçons développent des compétences de survie, explorent l'île et affrontent divers dangers. Le roman explore des thèmes tels que l'amitié, le courage et la débrouillardise, tout en capturant l'imagination avec son récit captivant et ses descriptions détaillées de la vie sur une île déserte.",
+        "URL":"Data/Deux_ans_de_vacances.pdf",
+        "genre": "Aventure"
+    },
+    "Le petit prince" :{
+        "nom_oeuvre": "Le petit Prince",
+        "description": "Le Petit Prince est un conte philosophique écrit par Antoine de Saint-Exupéry. L'histoire commence lorsque le narrateur, un pilote échoué dans le désert, rencontre un petit prince venu d'une autre planète. À travers les conversations entre le petit prince et le narrateur, le livre explore des thèmes profonds tels que l'amour, l'amitié, la solitude, et la quête de sens dans la vie. Le petit prince partage avec le narrateur ses observations sur le comportement humain et sa propre expérience de vie sur différentes planètes qu'il a visitées. Avec ses illustrations charmantes et son langage poétique, Le Petit Prince est une œuvre intemporelle qui touche le cœur des lecteurs de tous âges et les invite à réfléchir sur les choses importantes de la vie.",
+        "URL": "Data/Le_petit_prince.pdf",
+        "image": "",
+        "genre": "Aventure"
+    },
+    "Hunger Games 1": {
+        "nom_oeuvre": "Hunger Games",
+        "description": "Dans Hunger Games, un dystopie roman écrit par Suzanne Collins, Katniss Everdeen, une jeune fille de 16 ans, se porte volontaire pour participer aux Jeux de la Faim à la place de sa sœur Prim. Dans cet univers oppressif, les 24 tributs, un garçon et une fille de chaque district, doivent s'affronter dans une arène jusqu'à la mort, sous le regard des téléspectateurs. Katniss doit utiliser ses compétences de chasseuse pour survivre, tout en jonglant avec les alliances et les manipulations politiques. Le roman explore des thèmes tels que la survie, le sacrifice et la rébellion contre l'oppression.",
+        "URL": "Data/Hunger_Games_1.pdf",
+        "image":"",
+        "genre":"Aventure"
+    },
+
     "ippo":{
         "nom_oeuvre": "ippo",
         "description": " ippo le boxeur",
         "chemin": ""
-    },
-    "Nouveau livre test":{
-        "nom_oeuvre" : "test"    
     }
+    
 }
