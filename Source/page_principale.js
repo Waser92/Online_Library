@@ -68,16 +68,18 @@ function rechercheMot_coche(value) {
           if (!data || Object.keys(data).length === 0) {
               throw new Error('Aucune donnée de livre trouvée dans le fichier JSON');
           }
-  const a = document.createElement('a');
-  var elements = book.getElementsByTagName('li');
-  a.textContent = data[livre].genre;
+  Object.keys(data).forEach(livre => {
+    const a = document.createElement('a');
+    var elements = book.getElementsByTagName('li');
+    a.textContent = data[livre].genre;
 
-  for (var i = 0; i < a.length; i++) {
-    var texte = a[i].textContent.toLowerCase();
-    if (texte.includes(value)){
-      elements[i].style.display = 'block';
-    } else{
-      elements[i].style.display = 'none';
+    for (var i = 0; i < a.length; i++) {
+      var texte = a[i].textContent.toLowerCase();
+      if (texte.includes(value)){
+        elements[i].style.display = 'block';
+      } else{
+        elements[i].style.display = 'none';
+      }
     }
   }
-})}
+)})}
