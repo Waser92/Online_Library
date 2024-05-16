@@ -23,4 +23,3 @@ NOS FICHIERS
 -La page Branch_page.css est la page CSS de style de notre page Branch Page. Elle permet notamment le cohérence visuelle entre nos différentes pages.
 -La page Branch_page.js est le fichier JavaScript du fichier Branch_page.html. Ce fichier permet la récupération des données du fichier Main_Data.json en fonction du livre sur lequel l'utilisateur a cliqué. Une fois la récupération effectué, notre page peut afficher le pdf ainsi que le titre du livre et une courte description.
 -La page page_livres.html est le fichier de formulaire qui permet à un  utilisateur de nous proposer un livre. Ce fichier permet de nous envoyer un mail directement sur cette page.
-
