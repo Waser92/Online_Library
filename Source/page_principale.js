@@ -42,7 +42,7 @@ function rechercherEtSupprimerMots() {
   var book = document.getElementById('book');
   var elements = book.getElementsByTagName('li');
 
-  for (var i = 0; i < elements.length; i++) {
+  for (var i = 0; i < elements.lengtvalueh; i++) {
     var texte = elements[i].textContent.toLowerCase();
 
     if (texte.includes(motRecherche)) {
@@ -74,8 +74,7 @@ function rechercheMot_coche(value) {
     a.textContent = data[livre].genre;
 
     for (var i = 0; i < a.length; i++) {
-      var texte = a[i].textContent.toLowerCase();
-      if (texte.includes(value)){
+      if (a[i].textContent.includes(value)){
         elements[i].style.display = 'block';
       } else{
         elements[i].style.display = 'none';
@@ -84,33 +83,3 @@ function rechercheMot_coche(value) {
   }
 )})}
 
-
-function CocheMots() {
-  fetch('Main_Data.json')
-  .then(response => {
-      if (!response.ok) {
-          throw new Error('Erreur lors du chargement du fichier JSON');
-      }
-      return response.json();
-    })
-    .then(data => {
-        // Vérifier si des données ont été chargées
-        if (!data || Object.keys(data).length === 0) {
-            throw new Error('Aucune donnée de livre trouvée dans le fichier JSON');
-        }
-  var motRecherche = document.getElementById('coche').value;
-  Object.keys(data).forEach(livre => {
-    const a = document.createElement('a');
-    a.textContent = data[livre].genre;
-    var book = document.getElementById('book');
-    var elements = book.getElementsByTagName('li');
-    var i = 0 
-    for (var i = 0; i < a.length; i++) {
-      var texte = a[i].textContent.toLowerCase();
-      if (texte.includes(motRecherche)){
-        elements[i].style.display = 'none';
-      } else{
-        elements[i].style.display = 'block';
-      }
-    }
-  })})}
