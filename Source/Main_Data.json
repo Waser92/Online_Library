@@ -143,7 +143,7 @@
         "nom_oeuvre": "Pinochio",
         "description": "Pinocchio est un conte de fées classique écrit par l'auteur italien Carlo Collodi et publié en 1883. L'histoire suit les aventures d'un pantin de bois nommé Pinocchio, fabriqué par le menuisier Geppetto. Animé par la Fée bleue, Pinocchio aspire à devenir un vrai garçon. Cependant, son chemin est semé d'embûches alors qu'il se retrouve entraîné dans des situations périlleuses et rencontre une galerie de personnages colorés, y compris le rusé Renard et le Chat. Le récit explore des thèmes de l'apprentissage, de la responsabilité et de la transformation, offrant une leçon intemporelle sur la valeur de la vérité, de la gentillesse et du courage.",
         "URL": "Data/Pinocchio.pdf",
-        "image": "Info/pinocchio.jpg",
+        "image": "https://media.hachette.fr/fit-in/500x500/imgArticle/LIVREDEPOCHEJEUNESSE/2020/9782017119067-001-X.jpeg?source=web",
         "genre": "Roman" 
     },
     "ippo":{
