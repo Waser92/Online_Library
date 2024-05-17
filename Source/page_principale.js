@@ -45,7 +45,7 @@ function rechercherEtSupprimerMots() {
   var book = document.getElementById('book');
   var elements = book.getElementsByTagName('li');
 
-  for (var i = 0; i < elements.lengtvalueh; i++) {
+  for (var i = 0; i < elements.length; i++) {
     var texte = elements[i].textContent.toLowerCase();
 
     if (texte.includes(motRecherche)) {
@@ -71,18 +71,21 @@ function rechercheMot_coche(value) {
           if (!data || Object.keys(data).length === 0) {
               throw new Error('Aucune donnée de livre trouvée dans le fichier JSON');
           }
-  Object.keys(data).forEach(livre => {
-    const a = document.createElement('a');
-    var elements = book.getElementsByTagName('li');
-    a.textContent = data[livre].genre;
 
-    for (var i = 0; i < a.length; i++) {
-      if (a[i].textContent.includes(value)){
-        elements[i].style.display = 'block';
-      } else{
-        elements[i].style.display = 'none';
-      }
-    }
-  }
-)})}
+      const book = document.getElementById('book');
+      const elements = book.getElementsByTagName('li');
+      const checkboxes = document.querySelectorAll('input[name="genre"]:checked');
+      const selectedGenres = Array.from(checkboxes).map(cb => cb.value);
 
+      Object.keys(data).forEach((livre, index) => {
+          const genre = data[livre].genre;
+          const li = elements[index];
+              
+          if (selectedGenres.includes(genre)) {
+                li.style.display = 'block'; 
+          } else {
+                li.style.display = 'none';
+              }    
+          });
+      })
+}

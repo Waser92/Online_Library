@@ -3,140 +3,140 @@
         "nom_oeuvre": "Les Misérables Partie 1",
         "description": "\"Les Misérables\" de Victor Hugo est un roman épique qui suit la vie de Jean Valjean, un ancien bagnard, et son parcours vers la rédemption dans la France du 19ème siècle. L'histoire explore les thèmes de l'injustice sociale, de l'amour et du sacrifice à travers les destins entrelacés de Valjean, Fantine, Cosette et d'autres personnages emblématiques. Hugo peint un tableau vibrant de la société de l'époque, mettant en lumière les luttes des classes défavorisées et les contradictions morales de la société.",
         "URL": "Data/Partie1.pdf",
-        "image": "Info/misérables.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1z7FJH1BeN-Ar-1EtnJZsCcyLlIolicjUAPleGXdXyQ&s",
         "genre": "Fantaisie"
     },
     "L'homme qui rit": {
         "nom_oeuvre": "L'homme qui rit",
         "description": "\"L'Homme qui rit\" de Victor Hugo raconte l'histoire de Gwynplaine, un homme défiguré par un sourire permanent taillé dans son visage. Adopté par des saltimbanques, il se retrouve pris dans les rouages de la politique et de l'amour. Ce roman explore les thèmes de l'identité, de la justice sociale et de la quête de bonheur dans une société marquée par l'inégalité.",
         "URL": "Data/L'Homme qui rit.pdf",
-        "image": "Info/homme_qui_rit.jpg",
+        "image": "https://servimg.eyrolles.com/static/media/5561/9782346135561_internet_w290.jpg",
         "genre": "Fantaisie"
     },
     "Les trois mousquetaires": {
         "nom_oeuvre": "Les trois mousquetaires",
         "description": "\"Les Trois Mousquetaires\" de Alexandre Dumas suit les aventures de d'Artagnan, un jeune homme ambitieux, qui rejoint les mousquetaires du roi Louis XIII à Paris. Avec ses compagnons Athos, Porthos et Aramis, d'Artagnan se lance dans des duels, des complots politiques et des intrigues amoureuses dans le tumulte de la France du 17ème siècle.",
         "URL": "Data/Les trois mousquetaires.pdf",
-        "image": "Info/trois_mousquetaires.jpg",
+        "image": "https://pictures.abebooks.com/inventory/30619679794.jpg",
         "genre": "Fantaisie"
     },
     "Le Comte de Monte Cristo Partie 1": {
         "nom_oeuvre": "Le Comte de Monte Cristo Partie 1",
         "description": "\"Le Comte de Monte-Cristo\" de Alexandre Dumas narre l'histoire d'Edmond Dantès, un jeune marin injustement emprisonné. Après s'être échappé et avoir acquis une immense richesse, il revient sous une nouvelle identité pour se venger de ceux qui l'ont trahi. Cette saga épique explore la quête de vengeance, la rédemption et la manipulation dans le contexte de la France du 19ème siècle.",
         "URL": "Data/Le_comte_de_Monte_Cristo_1.pdf",
-        "image": "Info/monte_cristo.jpg",
+        "image": "https://m.media-amazon.com/images/I/916M5Fw1JHL._AC_UF1000,1000_QL80_DpWeblab_.jpg",
         "genre": "Fantaisie"
     },
     "Notre Dame de Paris": {
         "nom_oeuvre": "Notre Dame de Paris",
         "description": "\"Notre-Dame de Paris\" de Victor Hugo est un drame romantique se déroulant dans le Paris médiéval. L'histoire tourne autour d'Esmeralda, une belle bohémienne, et de Quasimodo, le sonneur de cloches bossu de la cathédrale Notre-Dame. Le roman explore les thèmes de l'amour, de la justice, de la beauté et de la laideur dans une société marquée par la superstition et l'intolérance.",
         "URL": "Data/hugo_notre_dame_de_paris.pdf",
-        "image": "Info/notre_dame_de_paris.jpg",
+        "image": "https://img.livraddict.com/covers/395/395092//couv47875122.jpg",
         "genre": "Fantaisie"
     },
     "Les Misérables Partie 2": {
         "nom_oeuvre": "Les Misérables Partie 2",
         "description": "\"Les Misérables\" de Victor Hugo est un roman épique qui suit la vie de Jean Valjean, un ancien bagnard, et son parcours vers la rédemption dans la France du 19ème siècle. L'histoire explore les thèmes de l'injustice sociale, de l'amour et du sacrifice à travers les destins entrelacés de Valjean, Fantine, Cosette et d'autres personnages emblématiques. Hugo peint un tableau vibrant de la société de l'époque, mettant en lumière les luttes des classes défavorisées et les contradictions morales de la société",
         "URL": "Data/Partie2.pdf",
-        "image": "Info/misérables.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1z7FJH1BeN-Ar-1EtnJZsCcyLlIolicjUAPleGXdXyQ&s",
         "genre": "Aventure"
     },
     "Les Misérables Partie 3": {
         "nom_oeuvre": "Les Misérables Partie 3",
         "description": "\"Les Misérables\" de Victor Hugo est un roman épique qui suit la vie de Jean Valjean, un ancien bagnard, et son parcours vers la rédemption dans la France du 19ème siècle. L'histoire explore les thèmes de l'injustice sociale, de l'amour et du sacrifice à travers les destins entrelacés de Valjean, Fantine, Cosette et d'autres personnages emblématiques. Hugo peint un tableau vibrant de la société de l'époque, mettant en lumière les luttes des classes défavorisées et les contradictions morales de la société",
         "URL": "Data/Partie3.pdf",
-        "image": "Info/misérables.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1z7FJH1BeN-Ar-1EtnJZsCcyLlIolicjUAPleGXdXyQ&s",
         "genre": "Aventure"
     },
     "Les Misérables Partie 4": {
         "nom_oeuvre": "Les Misérables Partie 4",
         "description": "\"Les Misérables\" de Victor Hugo est un roman épique qui suit la vie de Jean Valjean, un ancien bagnard, et son parcours vers la rédemption dans la France du 19ème siècle. L'histoire explore les thèmes de l'injustice sociale, de l'amour et du sacrifice à travers les destins entrelacés de Valjean, Fantine, Cosette et d'autres personnages emblématiques. Hugo peint un tableau vibrant de la société de l'époque, mettant en lumière les luttes des classes défavorisées et les contradictions morales de la société",
         "URL": "Data/Partie4.pdf",
-        "image": "Info/misérables.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1z7FJH1BeN-Ar-1EtnJZsCcyLlIolicjUAPleGXdXyQ&s",
         "genre": "Aventure"
     },
     "Les Misérables Partie 5": {
         "nom_oeuvre": "Les Misérables Partie 5",
         "description": "\"Les Misérables\" de Victor Hugo est un roman épique qui suit la vie de Jean Valjean, un ancien bagnard, et son parcours vers la rédemption dans la France du 19ème siècle. L'histoire explore les thèmes de l'injustice sociale, de l'amour et du sacrifice à travers les destins entrelacés de Valjean, Fantine, Cosette et d'autres personnages emblématiques. Hugo peint un tableau vibrant de la société de l'époque, mettant en lumière les luttes des classes défavorisées et les contradictions morales de la société",
         "URL": "Data/Partie5.pdf",
-        "image": "Info/misérables.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1z7FJH1BeN-Ar-1EtnJZsCcyLlIolicjUAPleGXdXyQ&s",
         "genre": "Aventure"
     },
     "Le Comte de Monte Cristo Partie 2": {
         "nom_oeuvre": "Le Comte de Monte Cristo Partie 2",
         "description": "\"Le Comte de Monte-Cristo\" de Alexandre Dumas narre l'histoire d'Edmond Dantès, un jeune marin injustement emprisonné. Après s'être échappé et avoir acquis une immense richesse, il revient sous une nouvelle identité pour se venger de ceux qui l'ont trahi. Cette saga épique explore la quête de vengeance, la rédemption et la manipulation dans le contexte de la France du 19ème siècle.",
         "URL": "Data/Le_comte_de_Monte_Cristo_2.pdf",
-        "image": "Info/monte_cristo.jpg",
+        "image": "https://m.media-amazon.com/images/I/916M5Fw1JHL._AC_UF1000,1000_QL80_DpWeblab_.jpg",
         "genre": "Aventure"
     },
     "Tom Sawyer" : {
         "nom_oeuvre": "Les aventures de Tom Sawyer",
         "description": "Tom Sawyer est le personnage principal du célèbre roman Les Aventures de Tom Sawyer écrit par Mark Twain. Il est un jeune garçon espiègle et aventureux, vivant dans la petite ville fictive de St. Petersburg, au Missouri, dans les années 1840. Tom est connu pour son esprit indépendant, son imagination débordante et son amour pour l'exploration. Il est souvent accompagné de son meilleur ami Huckleberry Finn et est constamment à la recherche d'excitation et de liberté. Malgré son penchant pour les bêtises et les farces, Tom a un cœur généreux et un sens de la justice qui l'amène souvent à se retrouver au cœur d'aventures fascinantes et parfois dangereuses.",
         "URL": "Data/Tom_Sawyer.pdf",
-        "image":"Info/tom sawyer.jpg" ,
+        "image":"https://media.groupe.gallimard.fr/couvHD/J00178.jpg" ,
         "genre": "Aventure"
     },
     "Vingt mille lieues sous les mers": {
-        "nom_oeuvre": "Vingt mille lieues ssous les mers",
+        "nom_oeuvre": "Vingt mille lieues sous les mers",
         "description": "Vingt mille lieues sous les mers est un célèbre roman d'aventures écrit par Jules Verne. L'histoire suit les exploits du Professeur Aronnax, son fidèle assistant Conseil et un harponneur canadien nommé Ned Land, qui sont capturés par le mystérieux capitaine Nemo à bord du sous-marin futuriste, le Nautilus. Ensemble, ils parcourent les océans du monde, découvrant des merveilles sous-marines, affrontant des dangers marins et explorant les profondeurs inconnues de l'océan. Le roman explore des thèmes tels que la science, l'aventure, la nature humaine et la relation entre l'homme et la mer, tout en capturant l'imagination avec son récit passionnant et ses descriptions détaillées du monde sous-marin.",
         "URL": "Data/Vingt_mille_lieues_sous_les_mers.pdf",
-        "image": "Info/vingt_mille_lieues sous_les mers.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS190dYQVrsd-o9Dk6fEM8ueZsHQwQ0Ncx-qUSqP8vZEQ&s",
         "genre": "Aventure"
     },
     "Voyage au centre de la Terre" : {
         "nom_oeuvre": "Voyage au centre de la Terre",
         "description": "Voyage au centre de la Terre est un roman d'aventures captivant écrit par Jules Verne. L'histoire suit les péripéties du professeur Otto Lidenbrock, un géologue intrépide, et son neveu Axel, qui découvrent un manuscrit ancien révélant l'existence d'un chemin menant au centre de la Terre. Ils entreprennent alors un voyage audacieux à travers les profondeurs de la planète, explorant des cavernes mystérieuses, affrontant des dangers inimaginables et découvrant des paysages fantastiques. Tout au long de leur périple, ils font face à des épreuves scientifiques, des rencontres étranges et des énigmes intrigantes, tout en cherchant à percer les mystères du monde souterrain. Ce récit envoûtant captive l'imagination avec son sens de l'aventure, ses descriptions détaillées et son exploration des merveilles cachées de la Terre.",
         "URL": "Data/Voyage_au_centre_de_la_terre.pdf",
-        "image": "Info/voyage_au_centre_de_la_terre.jpg",
+        "image": "https://images.epagine.fr/715/9782012031715_1_75.jpg",
         "genre": "Aventure"
     },
     "L'île mystérieuse": {
         "nom_oeuvre" : "L'île mystérieuse",
         "description" :"L'Île mystérieuse est un roman d'aventures écrit par Jules Verne. L'histoire commence avec cinq hommes naufragés sur une île déserte du Pacifique après avoir survécu à un naufrage. Ils doivent apprendre à survivre dans cet environnement hostile en utilisant leurs compétences et leur ingéniosité. Peu à peu, ils découvrent que l'île cache de nombreux mystères, notamment des ressources étranges et des phénomènes inexplicables. Au fil du récit, les naufragés réalisent qu'ils ne sont pas seuls sur l'île et que quelqu'un semble les surveiller. L'Île mystérieuse est un récit palpitant qui mêle aventure, exploration et suspense, tout en mettant en valeur la force de l'esprit humain face à l'adversité.",
         "URL":"Data/L'île_mystérieuse.pdf",
-        "image":"Info/L_ile_mysterieuse.jpg",
+        "image":"https://static.fnac-static.com/multimedia/PE/Images/FR/NR/d6/9f/14/1351638/1507-1/tsp20240429071506/L-ile-mysterieuse-Texte-abrege.jpg",
         "genre": "Aventure"
     },
     "Deux ans de Vacances": {
         "nom_oeuvre": "Deux ans de vacances",
         "description": "Deux ans de vacances est un roman d'aventures écrit par Jules Verne. L'histoire suit un groupe de jeunes garçons qui se retrouvent échoués sur une île déserte après le naufrage de leur navire. Livrés à eux-mêmes, ils doivent apprendre à survivre dans cet environnement hostile et à s'organiser pour faire face aux défis de la nature. Au fil du récit, les garçons développent des compétences de survie, explorent l'île et affrontent divers dangers. Le roman explore des thèmes tels que l'amitié, le courage et la débrouillardise, tout en capturant l'imagination avec son récit captivant et ses descriptions détaillées de la vie sur une île déserte.",
         "URL":"Data/Deux_ans_de_vacances.pdf",
-        "image": "Info/deux_ans_de_vacances.jpg",
+        "image": "https://m.media-amazon.com/images/I/81-rcfH5DWL._AC_UF1000,1000_QL80_.jpg",
         "genre": "Aventure"
     },
     "Le Tour du monde en 80 jours":{
         "nom_oeuvre": "Le Tour du monde en 80 jours ",
         "description": "Le Tour du monde en 80 jours est un roman d'aventure de l'écrivain français Jules Verne, publié en 1873. L'histoire suit le gentleman anglais Phileas Fogg et son serviteur, Passepartout, dans leur incroyable voyage autour du monde. Ils tentent de relever un défi lancé par Fogg : accomplir le tour du monde en 80 jours pour remporter un pari. Le roman est rempli d'aventures, de rebondissements et de rencontres inattendues, offrant une immersion captivante dans les différentes cultures et paysages traversés lors de ce périple extraordinaire.",
         "URL": "Data/Le_tour_du_monde_en_80_jours.pdf",
-        "image": "Info/Le_tour_du_monde_en_80_jours.jpg",
+        "image": "https://static.fnac-static.com/multimedia/Images/FR/NR/aa/36/15/1390250/1507-1/tsp20230720180248/Le-tour-du-monde-en-80-jours.jpg",
         "genre": "Aventure"
     },
     "Le petit prince" :{
         "nom_oeuvre": "Le petit Prince",
         "description": "Le Petit Prince est un conte philosophique écrit par Antoine de Saint-Exupéry. L'histoire commence lorsque le narrateur, un pilote échoué dans le désert, rencontre un petit prince venu d'une autre planète. À travers les conversations entre le petit prince et le narrateur, le livre explore des thèmes profonds tels que l'amour, l'amitié, la solitude, et la quête de sens dans la vie. Le petit prince partage avec le narrateur ses observations sur le comportement humain et sa propre expérience de vie sur différentes planètes qu'il a visitées. Avec ses illustrations charmantes et son langage poétique, Le Petit Prince est une œuvre intemporelle qui touche le cœur des lecteurs de tous âges et les invite à réfléchir sur les choses importantes de la vie.",
         "URL": "Data/Le_petit_prince.pdf",
-        "image": "Info/le_petit_prince.jpg",
+        "image": "https://cdn1.booknode.com/book_cover/1043/full/le-petit-prince-1043157.jpg",
         "genre": "Aventure"
     },
     "Hunger Games 1": {
         "nom_oeuvre": "Hunger Games",
         "description": "Dans Hunger Games, un dystopie roman écrit par Suzanne Collins, Katniss Everdeen, une jeune fille de 16 ans, se porte volontaire pour participer aux Jeux de la Faim à la place de sa sœur Prim. Dans cet univers oppressif, les 24 tributs, un garçon et une fille de chaque district, doivent s'affronter dans une arène jusqu'à la mort, sous le regard des téléspectateurs. Katniss doit utiliser ses compétences de chasseuse pour survivre, tout en jonglant avec les alliances et les manipulations politiques. Le roman explore des thèmes tels que la survie, le sacrifice et la rébellion contre l'oppression.",
         "URL": "Data/Hunger_Games_1.pdf",
-        "image":"Info/Hunger_games_tome_1.jpg",
+        "image":"https://cdn1.booknode.com/book_cover/944/full/hunger-games-tome-1-943766.jpg",
         "genre":"Aventure"
     },
     "La gloire de mon père" :{
         "nom_oeuvre":"La Gloire de mon père",
         "description": "La Gloire de mon père est un récit autobiographique de l'écrivain français Marcel Pagnol. Publié en 1957, ce livre relate les souvenirs d'enfance de l'auteur dans le sud de la France, notamment ses vacances estivales passées dans les collines provençales avec sa famille. Pagnol y décrit avec tendresse et humour les personnages hauts en couleur de son entourage, ainsi que les aventures et les découvertes qui ont marqué son enfance. Ce récit est empreint de nostalgie et d'une profonde affection pour la région provençale, offrant un portrait vivant et chaleureux de la vie en Provence au début du XXe siècle.",
         "URL": "Data/La_gloire_de_mon_père.pdf",
-        "image":"Info/la_gloire_de_mon_père.jpg",
+        "image":"https://www.bdfugue.com/media/catalog/product/cache/0d950bd4d3aaddc02a824ea154d9c41e/9/7/9782818934586_1_75.jpg",
         "genre": "Aventure"
     },
     "La Dame aux Camélias":{
         "nom_oeuvre": "La Dame aux camélias",
         "description": "La Dame aux camélias est un roman écrit par Alexandre Dumas fils et publié en 1848. Il raconte l'histoire de Marguerite Gautier, une courtisane parisienne célèbre pour sa beauté et son charme. Lorsqu'elle rencontre le jeune Armand Duval, ils tombent éperdument amoureux l'un de l'autre. Cependant, leur relation est entravée par les conventions sociales et les préjugés de la société de l'époque. Le roman explore les thèmes de l'amour, du sacrifice et de la moralité, offrant un regard poignant sur la condition humaine et les dilemmes moraux auxquels les personnages sont confrontés.",
         "URL": "Data/La_dame_aux_camélias.pdf",
-        "image": "Info/la_dame_aux_camélias.jpg",
+        "image": "https://www.images-chapitre.com/ima1/newbig/418/750418_11499186.jpg",
         "genre": "Roman"
     },
     "Pinochio": {
@@ -150,7 +150,7 @@
         "nom_oeuvre": "ippo",
         "description": "Ippo est un manga japonais écrit et illustré par George Morikawa. Il raconte l'histoire d'un jeune lycéen timide et maladroit nommé Makunouchi Ippo, qui est constamment intimidé par ses camarades de classe. Un jour, alors qu'il est victime de harcèlement, il est secouru par un boxeur itinérant. Impressionné par la force et la discipline du boxeur, Ippo se lance dans la boxe pour gagner confiance en lui et devenir plus fort. Le manga suit son parcours de boxeur débutant alors qu'il s'entraîne dur, surmonte des obstacles et participe à des combats pour atteindre son rêve de devenir champion. Ippo est salué pour ses scènes de combat dynamiques, son développement de personnage profond et son exploration des thèmes de la détermination, du dépassement de soi et de l'amitié.",
         "URL": "",
-        "image": "Info/ippo.jpg",
+        "image": "https://pictures.abebooks.com/isbn/9782351422069-fr.jpg",
         "genre": "Manga"
     }
     
