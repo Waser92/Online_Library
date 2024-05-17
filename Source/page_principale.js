@@ -74,6 +74,13 @@ function rechercheMot_coche(value) {
       const checkboxes = document.querySelectorAll('input[name="genre"]:checked');
       const selectedGenres = Array.from(checkboxes).map(cb => cb.value);
 
+      if (selectedGenres.length === 0) {
+        Array.from(elements).forEach(li => {
+            li.style.display = 'block';
+        });
+        return;
+    }
+    
       Object.keys(data).forEach((livre, index) => {
           const genre = data[livre].genre;
           const li = elements[index];
