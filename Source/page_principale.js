@@ -23,9 +23,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 const a = document.createElement('a');
                 const imagejavascript = document.createElement("img");
                 a.textContent = data[livre].nom_oeuvre;
-                imagejavascript.src = data[livre].image
+                imagejavascript.src = data[livre].image;
+                imagejavascript.width = [70];
+                imagejavascript.height=[100];
                 // Construire le lien avec les paramètres d'URL corrects
                 a.href = `Branch_page.html?nom=${encodeURIComponent(data[livre].nom_oeuvre)}&description=${encodeURIComponent(data[livre].description)}&URL=${encodeURIComponent(data[livre].URL)}`;
+                imagejavascript.href = `Branch_page.html?nom=${encodeURIComponent(data[livre].nom_oeuvre)}&description=${encodeURIComponent(data[livre].description)}&URL=${encodeURIComponent(data[livre].URL)}`;
                 li.appendChild(a);
                 li.appendChild(imagejavascript);
                 book.appendChild(li);

@@ -54,7 +54,10 @@ input[type=text]:focus {
 }
 
 .book{
-  display: list-item;    
+    display: list-item;
+    text-align: center;
+    padding:100px;
+    width : 250px;
  }
 
  #list{
