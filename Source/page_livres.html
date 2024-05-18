@@ -5,48 +5,43 @@
     <title>Biblioworld</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pages_livres.css">
-    <title>Ajouter un livre:</title>
+    <title>Ajouter un livre</title>
 </head>
 <body>
-    <form action="nouveau_livre.php"> 
     <button type="button" onclick="retourMenu()">Menu</button>
-
     <h1>Propose un livre que tu voudrais voir dans la bibliothèque</h1>
-
     <br>
-    
-    <div class="url">
-        <label for="Titre">Titre de l'oeuvre</label>
-        <input type="text" id="name" name="Titre" required
-        minlength="2" maxlength="50" 
-        placeholder="Les Misérables"/>
-        <br>
 
-        <label for="auteur">Nom de l'auteur</label>
-        <input type="text" id="auteur" name="auteur"
-        placeholder="Victor Hugo" />
-        <br>
-        <script>
-            function retourMenu() {
-                window.location.href = "page_principale.html";
-            }</script>
+    <form action="nouveau_livre.php" method="post">
+        <div class="url">
+            <label for="Titre">Titre de l'oeuvre</label>
+            <input type="text" id="Titre" name="Titre" required minlength="2" maxlength="50" placeholder="Les Misérables"/>
+            <br>
 
-        <form>
-            <label for="url">Entrer l'url de la couverture</label>
-            <input type="url" name="url" id="url"
-            placeholder="https://exemple.com"
-            pattern="https://.*" size="30" required />
-        </form>
-        <br>
+            <label for="auteur">Nom de l'auteur</label>
+            <input type="text" id="auteur" name="auteur" placeholder="Victor Hugo" />
+            <br>
 
-        <label for="Description">Description de l'oeuvre</label> 
-        <textarea id="story" name="Description" rows="10"
-        cols="66" placeholder="Les Misérables sont ... "></textarea>
-        <br>
-        <input type="text" id="email" placeholder="Entrer une adresse e-mail">
-        <button type="button" onclick="envoyerMail()">valider</button>
+            <label for="url">Entrer l'URL de la couverture</label>
+            <input type="url" name="url" id="url" placeholder="https://exemple.com" pattern="https://.*" size="30" required />
+            <br>
 
+            <label for="Description">Description de l'oeuvre</label>
+            <textarea id="Description" name="Description" rows="10" cols="66" placeholder="Les Misérables sont ..."></textarea>
+            <br>
+
+            <label for="email">Entrer une adresse e-mail</label>
+            <input type="email" id="email" name="email" placeholder="Entrer une adresse e-mail" required />
+            <br>
+
+            <button type="submit">Valider</button>
+        </div>
     </form>
-    </div>
+
+    <script>
+        function retourMenu() {
+            window.location.href = "page_principale.html";
+        }
+    </script>
 </body>
 </html>
