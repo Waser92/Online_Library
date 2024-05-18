@@ -1,22 +1,23 @@
-body{
-float: center;
-background-color: #313131;
-color: white;
-width:100%;
+html{
+  background-color: #313131;
+  Color: rgb(0, 182, 0)
 }
 
-.Nom-livre{
-    background-color: black;
-    color: white;
-    border-color: rgb(0, 182, 0);
+h1 {
+  text-align: center;
+  color:rgb(255, 255, 255)
 
 }
 
-title {color:rgb(179, 182, 0)
+nav {
+  text-align: center;
+  color:rgb(255, 255, 255)
 }
-head  {
+
+header  {
     background-color: black;
   }
+
 footer {
     text-align: center;
     padding: 5px;
@@ -24,13 +25,8 @@ footer {
     color: rgb(0, 182, 0);
   }
 
-
-header {
-    text-align: center;
-    padding: 5px;
-    background-color: #313131;
-    color: rgb(0, 182, 0);
-  }
-
-html{background-color: #313131;
-    Color: rgb(0, 182, 0)}
+div {
+  text-align: center;
+  font-size: 20px;
+  color: (255, 255, 255);
+}
