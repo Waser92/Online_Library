@@ -46,4 +46,6 @@ header {
 #pdfViewer {
     display: block;
     margin: 0 auto;
+    height: 800px;
+    width: 80%;
 }

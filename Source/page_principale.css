@@ -60,16 +60,22 @@ input[type=text]:focus {
     width : 250px;
  }
 
- #list{
+#list{
   color:greenyellow;
   font-size:  1.5em;
   margin-left: 90px;
  }
 
- .colonne_droite {
+.colonne_gauche {
   width: 50%;
   background-color: #313131;
   float: left;
+}
+
+.colonne_droite {
+  width: 50%;
+  background-color: #313131;
+  float: right;
 }
 
 .colonne {

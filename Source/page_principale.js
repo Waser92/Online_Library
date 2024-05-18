@@ -96,3 +96,19 @@ function rechercheMot_coche(value) {
           });
       })
 }
+
+
+
+
+function separateList_1(list) {
+    const middleIndex = Math.floor(list.length / 2);
+    const firstList = list.slice(0, middleIndex);
+    return { firstList };
+  }
+
+
+function separateList_2(list) {
+    const middleIndex = Math.floor(list.length / 2);
+    const secondList = list.slice(middleIndex);    
+    return { secondList };
+  }
