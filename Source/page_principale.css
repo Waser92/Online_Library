@@ -57,7 +57,6 @@ input[type=text]:focus {
     display: list-item;
     text-align: center;
     padding:100px;
-    width : 250px;
  }
 
 #list{
@@ -80,7 +79,7 @@ input[type=text]:focus {
 
 .colonne {
   width: 25%;
-  height: 100vh;
+  height: 200vh;
   background-color: black;
   float: left;
   border-top-right-radius: 10px;
@@ -138,11 +137,28 @@ input[type="checkbox"]{
   margin-right: 5px; 
 }
 
-.coche{
-  margin-left: 15%;
-  padding:15px;
+.coche li{
+  border: 1px solid rgb(0, 182, 0);
+  padding: 10px;
   border-radius: 10px;
-  background-color:black;
-  border-color: rgb(0, 182, 0);
-  color:white
+  color:white;
+  text-align: center;
 }
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book-list li {
+  flex: 1 0 30%; /* grow | shrink | basis */
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 20px; /* Ajustez cette valeur selon vos préférences */
+  border: 1px solid rgb(0, 182, 0);
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  background-color: black;
+}
+

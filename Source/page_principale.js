@@ -24,14 +24,19 @@ document.addEventListener("DOMContentLoaded", function() {
                 const imagejavascript = document.createElement("img");
                 a.textContent = data[livre].nom_oeuvre;
                 imagejavascript.src = data[livre].image;
-                imagejavascript.width = [70];
-                imagejavascript.height=[100];
+                imagejavascript.width = [80];
+                imagejavascript.height=[120];
                 // Construire le lien avec les paramètres d'URL corrects
                 a.href = `Branch_page.html?nom=${encodeURIComponent(data[livre].nom_oeuvre)}&description=${encodeURIComponent(data[livre].description)}&URL=${encodeURIComponent(data[livre].URL)}`;
                 imagejavascript.href = `Branch_page.html?nom=${encodeURIComponent(data[livre].nom_oeuvre)}&description=${encodeURIComponent(data[livre].description)}&URL=${encodeURIComponent(data[livre].URL)}`;
                 li.appendChild(a);
-                li.appendChild(imagejavascript);
+                li.appendChild(document.createElement('br'));
+                const imageLink = document.createElement('a');
+                imageLink.href = a.href;
+                imageLink.appendChild(imagejavascript);
+                li.appendChild(imageLink);
                 book.appendChild(li);
+                
             });
         })
         .catch(error => console.error('Erreur lors du chargement des livres:', error));
@@ -97,18 +102,3 @@ function rechercheMot_coche(value) {
       })
 }
 
-
-
-
-function separateList_1(list) {
-    const middleIndex = Math.floor(list.length / 2);
-    const firstList = list.slice(0, middleIndex);
-    return { firstList };
-  }
-
-
-function separateList_2(list) {
-    const middleIndex = Math.floor(list.length / 2);
-    const secondList = list.slice(middleIndex);    
-    return { secondList };
-  }
