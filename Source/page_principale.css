@@ -76,7 +76,7 @@ input[type=text]:focus {
 
 .colonne {
   width: 25%;
-  height: 220vh;
+  height: 250vh;
   background-color: black;
   text-align: center;
   float: left;

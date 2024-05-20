@@ -1,0 +1,81 @@
+function coche_siècles(value) {
+    // Charger le fichier JSON des livres
+    fetch('Main_Data.json')
+
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Erreur lors du chargement du fichier JSON');
+        }
+        return response.json();
+    })
+    .then(data => {
+        // Vérifier si des données ont été chargées
+        if (!data || Object.keys(data).length === 0) {
+            throw new Error('Aucune donnée de livre trouvée dans le fichier JSON');
+        }
+
+    const book = document.getElementById('book');
+    const elements = book.getElementsByTagName('li');
+    const checkboxes = document.querySelectorAll('input[name="Siècle"]:checked');
+    const selectedSiècle = Array.from(checkboxes).map(cb => cb.value);
+
+    if (selectedSiècle.length === 0) {
+      Array.from(elements).forEach(li => {
+          li.style.display = 'block';
+      });
+      return;
+  }
+  
+    Object.keys(data).forEach((livre, index) => {
+        const siècle = data[livre].siècle;
+        const li = elements[index];
+            
+        if (selectedSiècle.includes(siècle)) {
+              li.style.display = 'block'; 
+        } else {
+              li.style.display = 'none';
+            }    
+        });
+    })
+}
+
+function coche_auteurs(value) {
+    // Charger le fichier JSON des livres
+    fetch('Main_Data.json')
+
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Erreur lors du chargement du fichier JSON');
+        }
+        return response.json();
+    })
+    .then(data => {
+        // Vérifier si des données ont été chargées
+        if (!data || Object.keys(data).length === 0) {
+            throw new Error('Aucune donnée de livre trouvée dans le fichier JSON');
+        }
+
+    const book = document.getElementById('book');
+    const elements = book.getElementsByTagName('li');
+    const checkboxes = document.querySelectorAll('input[name="Auteur"]:checked');
+    const selectedAuteurs = Array.from(checkboxes).map(cb => cb.value);
+
+    if (selectedAuteurs.length === 0) {
+      Array.from(elements).forEach(li => {
+          li.style.display = 'block';
+      });
+      return;
+  }
+  
+    Object.keys(data).forEach((livre, index) => {
+        const auteur = data[livre].auteur;
+        const li = elements[index];
+            
+        if (selectedAuteurs.includes(auteur)) {
+              li.style.display = 'block'; 
+        } else {
+              li.style.display = 'none';
+            }    
+        });
+    })
+}

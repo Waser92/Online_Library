@@ -61,7 +61,7 @@ function rechercherEtSupprimerMots() {
   }
 }
 
-function rechercheMot_coche(value) {
+function coche_genres(value) {
       // Charger le fichier JSON des livres
       fetch('Main_Data.json')
 
