@@ -8,15 +8,6 @@
         "siècle": "XIX siècle",
         "auteur": "Jules Vernes"
     },
-    "Hunger Games 1": {
-        "description": "Dans Hunger Games, un dystopie roman écrit par Suzanne Collins, Katniss Everdeen, une jeune fille de 16 ans, se porte volontaire pour participer aux Jeux de la Faim à la place de sa sœur Prim. Dans cet univers oppressif, les 24 tributs, un garçon et une fille de chaque district, doivent s'affronter dans une arène jusqu'à la mort, sous le regard des téléspectateurs. Katniss doit utiliser ses compétences de chasseuse pour survivre, tout en jonglant avec les alliances et les manipulations politiques. Le roman explore des thèmes tels que la survie, le sacrifice et la rébellion contre l'oppression.",
-        "genre": "Aventure",
-        "image": "https://cdn1.booknode.com/book_cover/944/full/hunger-games-tome-1-943766.jpg",
-        "nom_oeuvre": "Hunger Games",
-        "URL": "Data/Hunger_Games_1.pdf",
-        "siècle":"XXI siècle",
-        "auteur": "Suzanne Collins"
-    },
     "ippo": {
         "description": "Ippo est un manga japonais écrit et illustré par George Morikawa. Il raconte l'histoire d'un jeune lycéen timide et maladroit nommé Makunouchi Ippo, qui est constamment intimidé par ses camarades de classe. Un jour, alors qu'il est victime de harcèlement, il est secouru par un boxeur itinérant. Impressionné par la force et la discipline du boxeur, Ippo se lance dans la boxe pour gagner confiance en lui et devenir plus fort. Le manga suit son parcours de boxeur débutant alors qu'il s'entraîne dur, surmonte des obstacles et participe à des combats pour atteindre son rêve de devenir champion. Ippo est salué pour ses scènes de combat dynamiques, son développement de personnage profond et son exploration des thèmes de la détermination, du dépassement de soi et de l'amitié.",
         "genre": "Manga",
@@ -196,5 +187,14 @@
         "URL": "Data/Voyage_au_centre_de_la_terre.pdf",
         "siècle": "XIX siècle",
         "auteur": "Jules Vernes"
-    }
+    },
+    "Hunger Games 1": {
+        "description": "Dans Hunger Games, un dystopie roman écrit par Suzanne Collins, Katniss Everdeen, une jeune fille de 16 ans, se porte volontaire pour participer aux Jeux de la Faim à la place de sa sœur Prim. Dans cet univers oppressif, les 24 tributs, un garçon et une fille de chaque district, doivent s'affronter dans une arène jusqu'à la mort, sous le regard des téléspectateurs. Katniss doit utiliser ses compétences de chasseuse pour survivre, tout en jonglant avec les alliances et les manipulations politiques. Le roman explore des thèmes tels que la survie, le sacrifice et la rébellion contre l'oppression.",
+        "genre": "Aventure",
+        "image": "https://cdn1.booknode.com/book_cover/944/full/hunger-games-tome-1-943766.jpg",
+        "nom_oeuvre": "Hunger Games",
+        "URL": "Data/Hunger_Games_1.pdf",
+        "siècle":"XXI siècle",
+        "auteur": "Suzanne Collins"
+}
 }
