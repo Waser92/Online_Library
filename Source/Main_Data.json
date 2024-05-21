@@ -17,12 +17,12 @@
         "siècle":"XXI siècle",
         "auteur": "Suzanne Collins"
     },
-    "ippo": {
+    "Ippo": {
         "description": "Ippo est un manga japonais écrit et illustré par George Morikawa. Il raconte l'histoire d'un jeune lycéen timide et maladroit nommé Makunouchi Ippo, qui est constamment intimidé par ses camarades de classe. Un jour, alors qu'il est victime de harcèlement, il est secouru par un boxeur itinérant. Impressionné par la force et la discipline du boxeur, Ippo se lance dans la boxe pour gagner confiance en lui et devenir plus fort. Le manga suit son parcours de boxeur débutant alors qu'il s'entraîne dur, surmonte des obstacles et participe à des combats pour atteindre son rêve de devenir champion. Ippo est salué pour ses scènes de combat dynamiques, son développement de personnage profond et son exploration des thèmes de la détermination, du dépassement de soi et de l'amitié.",
         "genre": "Manga",
         "image": "https://pictures.abebooks.com/isbn/9782351422069-fr.jpg",
         "nom_oeuvre": "ippo",
-        "URL": "",
+        "URL": "Data/ippo.pdf",
         "siècle":"XX siècle",
         "auteur": "George Morikawa"
     },
