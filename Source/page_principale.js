@@ -77,7 +77,7 @@ function displayBooks(data) {
         imagejavascript.width = 80;
         imagejavascript.height = 120;
 
-        a.href = `Branch_page.html?nom=${encodeURIComponent(data[livre].nom_oeuvre)}&description=${encodeURIComponent(data[livre].description)}&URL=${encodeURIComponent(data[livre].URL)}`;
+        a.href = `Branch_page.html?nom=${encodeURIComponent(data[livre].nom_oeuvre)}&description=${encodeURIComponent(data[livre].description)}&URL=${encodeURIComponent(data[livre].URL)}&auteur=${encodeURIComponent(data[livre].auteur)}`;
 
         const imageLink = document.createElement('a');
         imageLink.href = a.href;
