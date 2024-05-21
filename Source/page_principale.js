@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function() {
     fetch('Main_Data.json')
         .then(response => {
@@ -19,23 +18,21 @@ document.addEventListener("DOMContentLoaded", function() {
         .catch(error => console.error('Erreur lors du chargement des livres:', error));
 });
 
-
-
 function rechercherEtSupprimerMots() {
     var motRecherche = document.getElementById('searchbar').value.toLowerCase();
     var book = document.getElementById('book');
     var elements = book.getElementsByTagName('li');
   
     for (var i = 0; i < elements.length; i++) {
-      var texte = elements[i].textContent.toLowerCase();
+        var texte = elements[i].textContent.toLowerCase();
   
-      if (texte.includes(motRecherche)) {
-        elements[i].style.display = 'block'; // Affiche l'élément s'il contient le mot recherché
-      } else {
-        elements[i].style.display = 'none'; // Masque l'élément s'il ne contient pas le mot recherché
-      }
+        if (texte.includes(motRecherche)) {
+            elements[i].style.display = 'block'; // Affiche l'élément s'il contient le mot recherché
+        } else {
+            elements[i].style.display = 'none'; // Masque l'élément s'il ne contient pas le mot recherché
+        }
     }
-  }
+}
 
 function createCheckboxes(data, key, containerId) {
     const container = document.getElementById(containerId);
@@ -62,6 +59,7 @@ function createCheckboxes(data, key, containerId) {
 
 function displayBooks(data) {
     const book = document.getElementById('book');
+    book.innerHTML = ''; // Vider la liste avant d'ajouter des livres
     const sortedBooks = Object.keys(data).sort((a, b) => {
         return data[a].nom_oeuvre.localeCompare(data[b].nom_oeuvre);
     });
@@ -86,54 +84,31 @@ function displayBooks(data) {
         li.appendChild(a);
         li.appendChild(br);
         li.appendChild(imageLink);
+        li.dataset.genre = data[livre].genre;
+        li.dataset.auteur = data[livre].auteur;
+        li.dataset.siecle = data[livre].siècle;
         book.appendChild(li);
     });
 }
 
 function filterBooks() {
-    fetch('Main_Data.json')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Erreur lors du chargement du fichier JSON');
-            }
-            return response.json();
-        })
-        .then(data => {
-            if (!data || Object.keys(data).length === 0) {
-                throw new Error('Aucune donnée de livre trouvée dans le fichier JSON');
-            }
+    const book = document.getElementById('book');
+    const elements = book.getElementsByTagName('li');
+    const selectedGenres = getSelectedValues('genre');
+    const selectedAuteurs = getSelectedValues('auteur');
+    const selectedSiecles = getSelectedValues('siècle');
 
-            const book = document.getElementById('book');
-            const elements = book.getElementsByTagName('li');
-            const selectedGenres = getSelectedValues('genre');
-            const selectedAuteurs = getSelectedValues('auteur');
-            const selectedSiecles = getSelectedValues('siècle');
+    Array.from(elements).forEach(li => {
+        const genreMatch = selectedGenres.length === 0 || selectedGenres.includes(li.dataset.genre);
+        const auteurMatch = selectedAuteurs.length === 0 || selectedAuteurs.includes(li.dataset.auteur);
+        const siecleMatch = selectedSiecles.length === 0 || selectedSiecles.includes(li.dataset.siecle);
 
-            if (selectedGenres.length === 0 && selectedAuteurs.length === 0 && selectedSiecles.length === 0) {
-                Array.from(elements).forEach(li => {
-                    li.style.display = 'block';
-                });
-                return;
-            }
-
-            Object.keys(data).forEach((livre, index) => {
-                const genre = data[livre].genre;
-                const auteur = data[livre].auteur;
-                const siecle = data[livre].siècle;
-                const li = elements[index];
-
-                const genreMatch = selectedGenres.length === 0 || selectedGenres.includes(genre);
-                const auteurMatch = selectedAuteurs.length === 0 || selectedAuteurs.includes(auteur);
-                const siecleMatch = selectedSiecles.length === 0 || selectedSiecles.includes(siecle);
-
-                if (genreMatch && auteurMatch && siecleMatch) {
-                    li.style.display = 'block';
-                } else {
-                    li.style.display = 'none';
-                }
-            });
-        })
-        .catch(error => console.error('Erreur lors du filtrage des livres:', error));
+        if (genreMatch && auteurMatch && siecleMatch) {
+            li.style.display = 'block';
+        } else {
+            li.style.display = 'none';
+        }
+    });
 }
 
 function getSelectedValues(name) {
