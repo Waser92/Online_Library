@@ -1,0 +1,9 @@
+"Les Caractères":{
+        "description": "Les Caractères de Jean de La Bruyère est une œuvre majeure de la littérature française classique publiée en 1688. Ce recueil se compose d'une série de portraits satiriques et moraux, mettant en scène divers personnages représentatifs de la société de l'époque. La Bruyère utilise ces portraits pour critiquer les vices et les travers de la société, tout en offrant une réflexion profonde sur la nature humaine. À travers des observations fines et incisives, l'auteur explore les différentes facettes de l'homme et dépeint avec ironie les défauts et les faiblesses qui caractérisent l'humanité. Les Caractères est ainsi une œuvre intemporelle qui continue à susciter l'intérêt des lecteurs grâce à sa perspicacité et sa pertinence universelle.",
+        "genre": "Littérature d'idées",
+        "image": "https://m.media-amazon.com/images/I/81jBRaI57wL._AC_UF1000,1000_QL80_.jpg",
+        "nom_oeuvre": "Les Caractères",
+        "URL": "Data/Les_caracteres.pdf",
+        "siècle":"XVII siècle",
+        "auteur": "La Bruyère"
+        },
